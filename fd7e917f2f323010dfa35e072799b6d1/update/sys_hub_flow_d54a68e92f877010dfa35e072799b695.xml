@@ -9,16 +9,15 @@
         <compiler_build/>
         <copied_from/>
         <copied_from_name/>
-        <description>Once a user has opted to cancel their travel, this flow deletes the record.
-If an approver changes the state to 'Rescinded', the requester receives an email stating such.</description>
+        <description>If an approver changes the state to 'Rescinded', the requester receives an email stating such.</description>
         <internal_name>cancel_travel_request</internal_name>
-        <label_cache>[{"name":"Updated_1.current.requested_for.first_name","label":"Trigger➛Travel Requests Record➛Requested for➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Updated_1.current.destination.name","label":"Trigger➛Travel Requests Record➛Destination➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_684922_int_trav_nations","column_name":"name"},{"name":"Updated_1.current.requested_for.email","label":"Trigger➛Travel Requests Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"948b26c1-42b2-41e1-9f24-5aac22cced4d.email","label":"2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.state","label":"Trigger➛Travel Requests Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_684922_int_trav_travel_requests","column_name":"state"},{"name":"Updated_1.current","label":"Trigger➛Travel Requests Record","reference":"x_684922_int_trav_travel_requests","reference_display":"Travel Requests","type":"reference","base_type":"reference","attributes":{}},{"name":"c35f5c4a-c9e7-449a-b772-5223f7e179d1.email","label":"5➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"c35f5c4a-c9e7-449a-b772-5223f7e179d1.email","label":"5➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛Travel Requests Record","reference":"x_684922_int_trav_travel_requests","reference_display":"Travel Requests","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.state","label":"Trigger➛Travel Requests Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_684922_int_trav_travel_requests","column_name":"state"},{"name":"948b26c1-42b2-41e1-9f24-5aac22cced4d.email","label":"2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.requested_for.email","label":"Trigger➛Travel Requests Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Updated_1.current.destination.name","label":"Trigger➛Travel Requests Record➛Destination➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_684922_int_trav_nations","column_name":"name"},{"name":"Updated_1.current.requested_for.first_name","label":"Trigger➛Travel Requests Record➛Requested for➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"}]</label_cache>
         <latest_snapshot>e72be82d2f877010dfa35e072799b61d</latest_snapshot>
         <master_snapshot>e72be82d2f877010dfa35e072799b61d</master_snapshot>
-        <name>Cancel or Rescind Travel Request</name>
+        <name>Rescind Travel Request</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>8df8e3212fcf7010dfa35e072799b678</remote_trigger_id>
+        <remote_trigger_id>d5ff8cb12f43b010dfa35e072799b62c</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -31,22 +30,22 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d54a68e92f877010dfa35e072799b695</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>Cancel or Rescind Travel Request</sys_name>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>Rescind Travel Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
         <sys_policy/>
         <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
         <sys_update_name>sys_hub_flow_d54a68e92f877010dfa35e072799b695</sys_update_name>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:59</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:23</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=d54a68e92f877010dfa35e072799b695"/>
     <sys_variable_value action="delete_multiple" query="document_key=d54a68e92f877010dfa35e072799b695"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_684922_int_trav_travel_requests">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_684922_int_trav_travel_requests">stateVALCHANGES<item endquery="false" field="state" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
         </condition>
         <name/>
         <on_delete>false</on_delete>
@@ -59,56 +58,56 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:57</sys_created_on>
+        <sys_created_on>2021-10-07 14:19:22</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>8df8e3212fcf7010dfa35e072799b678</sys_id>
+        <sys_id>d5ff8cb12f43b010dfa35e072799b62c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:57</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:22</sys_updated_on>
         <table>x_684922_int_trav_travel_requests</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"09f8e3212fcf7010dfa35e072799b679","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"51ff8cb12f43b010dfa35e072799b62d","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>d54a68e92f877010dfa35e072799b695</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:57</sys_created_on>
-        <sys_id>09f8e3212fcf7010dfa35e072799b679</sys_id>
+        <sys_created_on>2021-10-07 14:19:22</sys_created_on>
+        <sys_id>51ff8cb12f43b010dfa35e072799b62d</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:57</sys_updated_on>
-        <trigger display_value="">8df8e3212fcf7010dfa35e072799b678</trigger>
+        <sys_updated_on>2021-10-07 14:19:22</sys_updated_on>
+        <trigger display_value="">d5ff8cb12f43b010dfa35e072799b62c</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>09f8e3212fcf7010dfa35e072799b679</document_id>
+        <document_id>51ff8cb12f43b010dfa35e072799b62d</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:57</sys_created_on>
-        <sys_id>8df8e3212fcf7010dfa35e072799b679</sys_id>
+        <sys_created_on>2021-10-07 14:19:22</sys_created_on>
+        <sys_id>d5ff8cb12f43b010dfa35e072799b62d</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=d54a68e92f877010dfa35e072799b695^sys_idNOT IN09f8e3212fcf7010dfa35e072799b679"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=d54a68e92f877010dfa35e072799b695^sys_idNOT IN51ff8cb12f43b010dfa35e072799b62d"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=d54a68e92f877010dfa35e072799b695^sys_idNOT INd41b282d2f877010dfa35e072799b6c0"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Cancel or Rescind Travel Request">d54a68e92f877010dfa35e072799b695</flow>
+        <flow display_value="Rescind Travel Request">d54a68e92f877010dfa35e072799b695</flow>
         <name>Updated</name>
         <remote_sys_id/>
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:20</sys_created_on>
         <sys_id>d41b282d2f877010dfa35e072799b6c0</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:58</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:23</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -137,11 +136,25 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:20</sys_created_on>
         <sys_id>181b282d2f877010dfa35e072799b6c1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 13:47:13</sys_updated_on>
+        <value>stateVALCHANGES</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d41b282d2f877010dfa35e072799b6c0</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 14:10:24</sys_created_on>
+        <sys_id>4eedc4312f43b010dfa35e072799b697</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-06 21:39:20</sys_updated_on>
-        <value>^EQ</value>
-        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+        <sys_updated_on>2021-10-07 14:10:24</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
     </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=d54a68e92f877010dfa35e072799b695^sys_idNOT IN594a68e92f877010dfa35e072799b696"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -195,7 +208,7 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Cancel or Rescind Travel Request">d54a68e92f877010dfa35e072799b695</model>
+        <model display_value="Rescind Travel Request">d54a68e92f877010dfa35e072799b695</model>
         <model_id>d54a68e92f877010dfa35e072799b695</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_d54a68e92f877010dfa35e072799b695</name>
@@ -218,14 +231,14 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:19</sys_created_on>
         <sys_id>181b282d2f877010dfa35e072799b69f</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:58</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -276,7 +289,7 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Cancel or Rescind Travel Request">d54a68e92f877010dfa35e072799b695</model>
+        <model display_value="Rescind Travel Request">d54a68e92f877010dfa35e072799b695</model>
         <model_id>d54a68e92f877010dfa35e072799b695</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_d54a68e92f877010dfa35e072799b695</name>
@@ -299,14 +312,14 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:19</sys_created_on>
         <sys_id>1c1b282d2f877010dfa35e072799b6b8</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:58</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -322,7 +335,7 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD9cf8a321cccf7010292283cdd15f7eb8,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD68ff4cb13643b0106a8eb1815c8b7eaf,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -357,7 +370,7 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Cancel or Rescind Travel Request">d54a68e92f877010dfa35e072799b695</model>
+        <model display_value="Rescind Travel Request">d54a68e92f877010dfa35e072799b695</model>
         <model_id>d54a68e92f877010dfa35e072799b695</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_d54a68e92f877010dfa35e072799b695</name>
@@ -380,14 +393,14 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:19</sys_created_on>
         <sys_id>901b282d2f877010dfa35e072799b6a6</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:58</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -399,42 +412,7 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=d54a68e92f877010dfa35e072799b695^sys_idNOT IN06d823212fcf7010dfa35e072799b627,241b282d2f877010dfa35e072799b6d3,8ed823212fcf7010dfa35e072799b620,e01b282d2f877010dfa35e072799b6cb"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type>
-        <action_type_parent/>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Cancel or Rescind Travel Request">d54a68e92f877010dfa35e072799b695</flow>
-        <order>6</order>
-        <parent_ui_id>daac1bcb-3862-4001-b754-4a4265d47313</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:28</sys_created_on>
-        <sys_id>06d823212fcf7010dfa35e072799b627</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:59</sys_updated_on>
-        <ui_id>3df16cef-ffa7-43ac-9a5b-bba45a9d888e</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=06d823212fcf7010dfa35e072799b627"/>
-    <sys_element_mapping action="delete_multiple" query="id=06d823212fcf7010dfa35e072799b627"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>06d823212fcf7010dfa35e072799b627</id>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:28</sys_created_on>
-        <sys_id>46d823212fcf7010dfa35e072799b628</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:28</sys_updated_on>
-        <table>var__m_sys_hub_action_input_a8f274c8c3c232002841b63b12d3aee9</table>
-        <value>{{Updated_1.current}}</value>
-    </sys_element_mapping>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d54a68e92f877010dfa35e072799b695^sys_idNOT IN241b282d2f877010dfa35e072799b6d3,e01b282d2f877010dfa35e072799b6cb"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -443,17 +421,17 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <comment/>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Cancel or Rescind Travel Request">d54a68e92f877010dfa35e072799b695</flow>
+        <flow display_value="Rescind Travel Request">d54a68e92f877010dfa35e072799b695</flow>
         <order>2</order>
         <parent_ui_id>3a6acaf5-648f-4ddb-bd14-485de14101ad</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:20</sys_created_on>
         <sys_id>241b282d2f877010dfa35e072799b6d3</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:59</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:23</sys_updated_on>
         <ui_id>948b26c1-42b2-41e1-9f24-5aac22cced4d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=241b282d2f877010dfa35e072799b6d3"/>
@@ -520,13 +498,13 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:48</sys_created_on>
         <sys_id>132ba82d2f877010dfa35e072799b6d7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-06 21:39:48</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:03</sys_updated_on>
         <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
         <value>&lt;p data-tinymcerootblock=""&gt;Greetings&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:220bfcda-074f-4056-8aeb-824a1a1b6a1d}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:220bfcda-074f-4056-8aeb-824a1a1b6a1d}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Travel Requests Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Requested for&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;First name&lt;button id="transform_function_facade_220bfcda-074f-4056-8aeb-824a1a1b6a1d" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;This email is to inform you that your Travel Request to&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:24e1f0d3-baac-48fc-91ed-7bb7c39377d5}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:24e1f0d3-baac-48fc-91ed-7bb7c39377d5}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Travel Requests Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Destination&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Name&lt;button id="transform_function_facade_24e1f0d3-baac-48fc-91ed-7bb7c39377d5" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; has been cancelled by you.&amp;nbsp;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;If this was in error, please submit another request.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;This email is to inform you that your Travel Request to&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:24e1f0d3-baac-48fc-91ed-7bb7c39377d5}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:24e1f0d3-baac-48fc-91ed-7bb7c39377d5}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Travel Requests Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Destination&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Name&lt;button id="transform_function_facade_24e1f0d3-baac-48fc-91ed-7bb7c39377d5" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; has been rescinded by an approver.&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;If you have questions regarding this decisions, please speak with your direct supervisor.&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;Thanks.&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -550,11 +528,11 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:48</sys_created_on>
         <sys_id>5b2ba82d2f877010dfa35e072799b6d7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-06 21:39:48</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:03</sys_updated_on>
         <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
-        <value>Your Travel Request to {{Updated_1.current.destination.name}} has been cancelled.</value>
+        <value>Your Travel Request to {{Updated_1.current.destination.name}} has been rescinded.</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_subject</field>
@@ -643,136 +621,22 @@ If an approver changes the state to 'Rescinded', the requester receives an email
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type>
-        <action_type_parent/>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Cancel or Rescind Travel Request">d54a68e92f877010dfa35e072799b695</flow>
-        <order>5</order>
-        <parent_ui_id>daac1bcb-3862-4001-b754-4a4265d47313</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:28</sys_created_on>
-        <sys_id>8ed823212fcf7010dfa35e072799b620</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:59</sys_updated_on>
-        <ui_id>c35f5c4a-c9e7-449a-b772-5223f7e179d1</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=8ed823212fcf7010dfa35e072799b620"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>8ed823212fcf7010dfa35e072799b620</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:28</sys_created_on>
-        <sys_id>82d823212fcf7010dfa35e072799b624</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:28</sys_updated_on>
-        <value>x_684922_int_trav_travel_requests</value>
-        <variable display_value="Table">0b702bf4a70323008299b39f087901f6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>8ed823212fcf7010dfa35e072799b620</document_key>
-        <order>7</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:28</sys_created_on>
-        <sys_id>ced823212fcf7010dfa35e072799b623</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:28</sys_updated_on>
-        <value/>
-        <variable display_value="Body">c71241160b100300d97d8bf637673a55</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=8ed823212fcf7010dfa35e072799b620"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_body</field>
-        <id>8ed823212fcf7010dfa35e072799b620</id>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:28</sys_created_on>
-        <sys_id>06d823212fcf7010dfa35e072799b623</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:28</sys_updated_on>
-        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Greetings&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0ee271aa-9b14-4b42-98bc-b625ea803a85}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:0ee271aa-9b14-4b42-98bc-b625ea803a85}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Travel Requests Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Requested for&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;First name&lt;button id="transform_function_facade_0ee271aa-9b14-4b42-98bc-b625ea803a85" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;This email is to inform you that your Travel Request to&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:40e55618-1686-4ae9-8817-8c1653ad0355}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:40e55618-1686-4ae9-8817-8c1653ad0355}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Travel Requests Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Destination&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Name&lt;button id="transform_function_facade_40e55618-1686-4ae9-8817-8c1653ad0355" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; has been rescinded by an approver.&amp;nbsp;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;If you would like to discuss the reasoning for this, please speak with your direct supervisor.&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Thanks.&lt;/p&gt;</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_subject</field>
-        <id>8ed823212fcf7010dfa35e072799b620</id>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:28</sys_created_on>
-        <sys_id>4ed823212fcf7010dfa35e072799b623</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:28</sys_updated_on>
-        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
-        <value>Your Travel Request to {{Updated_1.current.destination.name}} has been rescinded.</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_to</field>
-        <id>8ed823212fcf7010dfa35e072799b620</id>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:28</sys_created_on>
-        <sys_id>42d823212fcf7010dfa35e072799b623</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:28</sys_updated_on>
-        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
-        <value>{{Updated_1.current.requested_for.email}} </value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>8ed823212fcf7010dfa35e072799b620</id>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:28</sys_created_on>
-        <sys_id>c6d823212fcf7010dfa35e072799b623</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:28</sys_updated_on>
-        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
-        <value>{{Updated_1.current}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>8ed823212fcf7010dfa35e072799b620</id>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:28</sys_created_on>
-        <sys_id>8ad823212fcf7010dfa35e072799b623</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:28</sys_updated_on>
-        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Cancel or Rescind Travel Request">d54a68e92f877010dfa35e072799b695</flow>
+        <flow display_value="Rescind Travel Request">d54a68e92f877010dfa35e072799b695</flow>
         <order>3</order>
         <parent_ui_id>3a6acaf5-648f-4ddb-bd14-485de14101ad</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:20</sys_created_on>
         <sys_id>e01b282d2f877010dfa35e072799b6cb</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:59</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:23</sys_updated_on>
         <ui_id>cd51e1cf-e71c-411f-9773-946deb27b85f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e01b282d2f877010dfa35e072799b6cb"/>
@@ -801,7 +665,7 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
         <value>{{Updated_1.current}}</value>
     </sys_element_mapping>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=d54a68e92f877010dfa35e072799b695^sys_idNOT IN1c1b282d2f877010dfa35e072799b6c3,ced823212fcf7010dfa35e072799b616"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d54a68e92f877010dfa35e072799b695^sys_idNOT IN1c1b282d2f877010dfa35e072799b6c3"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">501b282d2f877010dfa35e072799b6c3</block>
         <comment/>
@@ -810,7 +674,7 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Cancel or Rescind Travel Request">d54a68e92f877010dfa35e072799b695</flow>
+        <flow display_value="Rescind Travel Request">d54a68e92f877010dfa35e072799b695</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -824,10 +688,10 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:20</sys_created_on>
         <sys_id>1c1b282d2f877010dfa35e072799b6c3</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:59</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:23</sys_updated_on>
         <ui_id>3a6acaf5-648f-4ddb-bd14-485de14101ad</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -841,10 +705,10 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:20</sys_created_on>
         <sys_id>ec1b282d2f877010dfa35e072799b6c7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-06 21:39:20</sys_updated_on>
-        <value>State = 'Cancelled'</value>
+        <sys_updated_on>2021-10-07 14:19:03</sys_updated_on>
+        <value>State = 'Rescinded'</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1c1b282d2f877010dfa35e072799b6c3"/>
@@ -854,11 +718,11 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:20</sys_created_on>
         <sys_id>6c1b282d2f877010dfa35e072799b6c7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-06 21:39:20</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:03</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Updated_1.current.state}}=6</value>
+        <value>{{Updated_1.current.state}}=5</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -870,76 +734,6 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_updated_by>kennedy.hall</sys_updated_by>
         <sys_updated_on>2021-10-06 21:39:20</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">0ad823212fcf7010dfa35e072799b616</block>
-        <comment/>
-        <connected_to>3a6acaf5-648f-4ddb-bd14-485de14101ad</connected_to>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="Cancel or Rescind Travel Request">d54a68e92f877010dfa35e072799b695</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <inputs/>
-        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>4</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:28</sys_created_on>
-        <sys_id>ced823212fcf7010dfa35e072799b616</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:59</sys_updated_on>
-        <ui_id>daac1bcb-3862-4001-b754-4a4265d47313</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=ced823212fcf7010dfa35e072799b616"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>ced823212fcf7010dfa35e072799b616</document_key>
-        <order>10</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:28</sys_created_on>
-        <sys_id>86d823212fcf7010dfa35e072799b61a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:28</sys_updated_on>
-        <value>State = 'Rescinded'</value>
-        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=ced823212fcf7010dfa35e072799b616"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition</field>
-        <id>ced823212fcf7010dfa35e072799b616</id>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:28</sys_created_on>
-        <sys_id>06d823212fcf7010dfa35e072799b61a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:28</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
-        <value>{{Updated_1.current.state}}=5</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition_name</field>
-        <id>ced823212fcf7010dfa35e072799b616</id>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:28</sys_created_on>
-        <sys_id>4ed823212fcf7010dfa35e072799b619</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:28</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
         <value/>
     </sys_element_mapping>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=d54a68e92f877010dfa35e072799b695^sys_idNOT IN02d823212fcf7010dfa35e072799b62b,241b282d2f877010dfa35e072799b6fe,281b282d2f877010dfa35e072799b6d8,4ad823212fcf7010dfa35e072799b62a"/>
@@ -1083,7 +877,7 @@ If an approver changes the state to 'Rescinded', the requester receives an email
     </sys_documentation>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=d54a68e92f877010dfa35e072799b695^sys_idNOT IN903be82d2f877010dfa35e072799b6f1"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
-        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"903be82d2f877010dfa35e072799b6f1","name":"plan"}}</plan>
         <plan_id>d54a68e92f877010dfa35e072799b695</plan_id>
         <snapshot>e72be82d2f877010dfa35e072799b61d</snapshot>
@@ -1092,12 +886,12 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>903be82d2f877010dfa35e072799b6f1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:58</sys_updated_on>
-        <trigger display_value="">8df8e3212fcf7010dfa35e072799b678</trigger>
+        <sys_updated_on>2021-10-07 14:19:22</sys_updated_on>
+        <trigger display_value="">d5ff8cb12f43b010dfa35e072799b62c</trigger>
     </sys_flow_trigger_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1108,15 +902,14 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <category/>
         <copied_from/>
         <copied_from_name/>
-        <description>Once a user has opted to cancel their travel, this flow deletes the record.
-If an approver changes the state to 'Rescinded', the requester receives an email stating such.</description>
+        <description>If an approver changes the state to 'Rescinded', the requester receives an email stating such.</description>
         <internal_name>cancel_travel_request</internal_name>
-        <label_cache>[{"name":"Updated_1.current.requested_for.first_name","label":"Trigger➛Travel Requests Record➛Requested for➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Updated_1.current.destination.name","label":"Trigger➛Travel Requests Record➛Destination➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_684922_int_trav_nations","column_name":"name"},{"name":"Updated_1.current.requested_for.email","label":"Trigger➛Travel Requests Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"948b26c1-42b2-41e1-9f24-5aac22cced4d.email","label":"2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.state","label":"Trigger➛Travel Requests Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_684922_int_trav_travel_requests","column_name":"state"},{"name":"Updated_1.current","label":"Trigger➛Travel Requests Record","reference":"x_684922_int_trav_travel_requests","reference_display":"Travel Requests","type":"reference","base_type":"reference","attributes":{}},{"name":"c35f5c4a-c9e7-449a-b772-5223f7e179d1.email","label":"5➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"c35f5c4a-c9e7-449a-b772-5223f7e179d1.email","label":"5➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛Travel Requests Record","reference":"x_684922_int_trav_travel_requests","reference_display":"Travel Requests","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.state","label":"Trigger➛Travel Requests Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_684922_int_trav_travel_requests","column_name":"state"},{"name":"948b26c1-42b2-41e1-9f24-5aac22cced4d.email","label":"2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.requested_for.email","label":"Trigger➛Travel Requests Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Updated_1.current.destination.name","label":"Trigger➛Travel Requests Record➛Destination➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_684922_int_trav_nations","column_name":"name"},{"name":"Updated_1.current.requested_for.first_name","label":"Trigger➛Travel Requests Record➛Requested for➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"}]</label_cache>
         <master>true</master>
-        <name>Cancel or Rescind Travel Request</name>
+        <name>Rescind Travel Request</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="Cancel or Rescind Travel Request">d54a68e92f877010dfa35e072799b695</parent_flow>
+        <parent_flow display_value="Rescind Travel Request">d54a68e92f877010dfa35e072799b695</parent_flow>
         <remote_trigger_id/>
         <run_as>user</run_as>
         <run_with_roles/>
@@ -1128,7 +921,7 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e72be82d2f877010dfa35e072799b61d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1136,7 +929,7 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:55</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:19</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=e72be82d2f877010dfa35e072799b61d"/>
@@ -1145,16 +938,16 @@ If an approver changes the state to 'Rescinded', the requester receives an email
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Cancel or Rescind Travel Request">e72be82d2f877010dfa35e072799b61d</flow>
+        <flow display_value="Rescind Travel Request">e72be82d2f877010dfa35e072799b61d</flow>
         <name>Updated</name>
         <remote_sys_id/>
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:51</sys_created_on>
         <sys_id>8c3be82d2f877010dfa35e072799b69e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:58</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:22</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1178,15 +971,29 @@ If an approver changes the state to 'Rescinded', the requester receives an email
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
         <document_key>8c3be82d2f877010dfa35e072799b69e</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 14:10:38</sys_created_on>
+        <sys_id>9dfd48312f43b010dfa35e072799b6d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 14:10:38</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>8c3be82d2f877010dfa35e072799b69e</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:51</sys_created_on>
         <sys_id>c03be82d2f877010dfa35e072799b6a0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-06 21:39:51</sys_updated_on>
-        <value>^EQ</value>
+        <sys_updated_on>2021-10-07 13:47:25</sys_updated_on>
+        <value>stateVALCHANGES</value>
         <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
     </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=e72be82d2f877010dfa35e072799b61d^sys_idNOT INe32be82d2f877010dfa35e072799b61e"/>
@@ -1241,7 +1048,7 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Cancel or Rescind Travel Request">e72be82d2f877010dfa35e072799b61d</model>
+        <model display_value="Rescind Travel Request">e72be82d2f877010dfa35e072799b61d</model>
         <model_id>e72be82d2f877010dfa35e072799b61d</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_e72be82d2f877010dfa35e072799b61d</name>
@@ -1264,14 +1071,14 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:49</sys_created_on>
         <sys_id>2b2be82d2f877010dfa35e072799b621</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:55</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1322,7 +1129,7 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Cancel or Rescind Travel Request">e72be82d2f877010dfa35e072799b61d</model>
+        <model display_value="Rescind Travel Request">e72be82d2f877010dfa35e072799b61d</model>
         <model_id>e72be82d2f877010dfa35e072799b61d</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_e72be82d2f877010dfa35e072799b61d</name>
@@ -1345,14 +1152,14 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:50</sys_created_on>
         <sys_id>3b2be82d2f877010dfa35e072799b676</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:54</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1368,7 +1175,7 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD9cf8a321cccf7010292283cdd15f7eb8,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD68ff4cb13643b0106a8eb1815c8b7eaf,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1403,7 +1210,7 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Cancel or Rescind Travel Request">e72be82d2f877010dfa35e072799b61d</model>
+        <model display_value="Rescind Travel Request">e72be82d2f877010dfa35e072799b61d</model>
         <model_id>e72be82d2f877010dfa35e072799b61d</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_e72be82d2f877010dfa35e072799b61d</name>
@@ -1426,14 +1233,14 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:50</sys_created_on>
         <sys_id>7f2be82d2f877010dfa35e072799b66b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:55</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1445,7 +1252,7 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=e72be82d2f877010dfa35e072799b61d^sys_idNOT IN8c3be82d2f877010dfa35e072799b69b,8cf8a3212fcf7010dfa35e072799b693,90f8a3212fcf7010dfa35e072799b69b,bb2be82d2f877010dfa35e072799b68c"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e72be82d2f877010dfa35e072799b61d^sys_idNOT IN8c3be82d2f877010dfa35e072799b69b,bb2be82d2f877010dfa35e072799b68c"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1454,17 +1261,17 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <comment/>
         <compiled_snapshot>98c181d20b100300d97d8bf637673ab5</compiled_snapshot>
         <display_text/>
-        <flow display_value="Cancel or Rescind Travel Request">e72be82d2f877010dfa35e072799b61d</flow>
+        <flow display_value="Rescind Travel Request">e72be82d2f877010dfa35e072799b61d</flow>
         <order>2</order>
         <parent_ui_id>3a6acaf5-648f-4ddb-bd14-485de14101ad</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:51</sys_created_on>
         <sys_id>8c3be82d2f877010dfa35e072799b69b</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:55</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:19</sys_updated_on>
         <ui_id>948b26c1-42b2-41e1-9f24-5aac22cced4d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8c3be82d2f877010dfa35e072799b69b"/>
@@ -1503,13 +1310,13 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:51</sys_created_on>
         <sys_id>0c3be82d2f877010dfa35e072799b69d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-06 21:39:51</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:18</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value>&lt;p data-tinymcerootblock=""&gt;Greetings&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:220bfcda-074f-4056-8aeb-824a1a1b6a1d}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:220bfcda-074f-4056-8aeb-824a1a1b6a1d}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Travel Requests Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Requested for&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;First name&lt;button id="transform_function_facade_220bfcda-074f-4056-8aeb-824a1a1b6a1d" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;This email is to inform you that your Travel Request to&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:24e1f0d3-baac-48fc-91ed-7bb7c39377d5}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:24e1f0d3-baac-48fc-91ed-7bb7c39377d5}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Travel Requests Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Destination&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Name&lt;button id="transform_function_facade_24e1f0d3-baac-48fc-91ed-7bb7c39377d5" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; has been cancelled by you.&amp;nbsp;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;If this was in error, please submit another request.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;This email is to inform you that your Travel Request to&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:24e1f0d3-baac-48fc-91ed-7bb7c39377d5}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:24e1f0d3-baac-48fc-91ed-7bb7c39377d5}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Travel Requests Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Destination&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Name&lt;button id="transform_function_facade_24e1f0d3-baac-48fc-91ed-7bb7c39377d5" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; has been rescinded by an approver.&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;If you have questions regarding this decisions, please speak with your direct supervisor.&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;Thanks.&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1518,11 +1325,11 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:51</sys_created_on>
         <sys_id>443be82d2f877010dfa35e072799b69e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-06 21:39:51</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:18</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>Your Travel Request to {{Updated_1.current.destination.name}} has been cancelled.</value>
+        <value>Your Travel Request to {{Updated_1.current.destination.name}} has been rescinded.</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_to</field>
@@ -1563,171 +1370,22 @@ If an approver changes the state to 'Rescinded', the requester receives an email
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
-        <action_type_parent/>
-        <comment/>
-        <compiled_snapshot>98c181d20b100300d97d8bf637673ab5</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Cancel or Rescind Travel Request">e72be82d2f877010dfa35e072799b61d</flow>
-        <order>5</order>
-        <parent_ui_id>daac1bcb-3862-4001-b754-4a4265d47313</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:53</sys_created_on>
-        <sys_id>8cf8a3212fcf7010dfa35e072799b693</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:55</sys_updated_on>
-        <ui_id>c35f5c4a-c9e7-449a-b772-5223f7e179d1</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=8cf8a3212fcf7010dfa35e072799b693"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>8cf8a3212fcf7010dfa35e072799b693</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:53</sys_created_on>
-        <sys_id>9cf8a3212fcf7010dfa35e072799b696</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:53</sys_updated_on>
-        <value>x_684922_int_trav_travel_requests</value>
-        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>8cf8a3212fcf7010dfa35e072799b693</document_key>
-        <order>7</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:53</sys_created_on>
-        <sys_id>d8f8a3212fcf7010dfa35e072799b696</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:53</sys_updated_on>
-        <value/>
-        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=8cf8a3212fcf7010dfa35e072799b693"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_body</field>
-        <id>8cf8a3212fcf7010dfa35e072799b693</id>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:53</sys_created_on>
-        <sys_id>10f8a3212fcf7010dfa35e072799b696</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:53</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Greetings&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0ee271aa-9b14-4b42-98bc-b625ea803a85}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:0ee271aa-9b14-4b42-98bc-b625ea803a85}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Travel Requests Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Requested for&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;First name&lt;button id="transform_function_facade_0ee271aa-9b14-4b42-98bc-b625ea803a85" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;This email is to inform you that your Travel Request to&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:40e55618-1686-4ae9-8817-8c1653ad0355}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:40e55618-1686-4ae9-8817-8c1653ad0355}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Travel Requests Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Destination&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Name&lt;button id="transform_function_facade_40e55618-1686-4ae9-8817-8c1653ad0355" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; has been rescinded by an approver.&amp;nbsp;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;If you would like to discuss the reasoning for this, please speak with your direct supervisor.&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Thanks.&lt;/p&gt;</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_subject</field>
-        <id>8cf8a3212fcf7010dfa35e072799b693</id>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:53</sys_created_on>
-        <sys_id>58f8a3212fcf7010dfa35e072799b696</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:53</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>Your Travel Request to {{Updated_1.current.destination.name}} has been rescinded.</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_to</field>
-        <id>8cf8a3212fcf7010dfa35e072799b693</id>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:53</sys_created_on>
-        <sys_id>5cf8a3212fcf7010dfa35e072799b695</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:53</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>{{Updated_1.current.requested_for.email}} </value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>8cf8a3212fcf7010dfa35e072799b693</id>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:53</sys_created_on>
-        <sys_id>d0f8a3212fcf7010dfa35e072799b696</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:53</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>{{Updated_1.current}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>8cf8a3212fcf7010dfa35e072799b693</id>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:53</sys_created_on>
-        <sys_id>94f8a3212fcf7010dfa35e072799b696</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:53</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>a8f274c8c3c232002841b63b12d3aee9</compiled_snapshot>
         <display_text/>
-        <flow display_value="Cancel or Rescind Travel Request">e72be82d2f877010dfa35e072799b61d</flow>
-        <order>6</order>
-        <parent_ui_id>daac1bcb-3862-4001-b754-4a4265d47313</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:54</sys_created_on>
-        <sys_id>90f8a3212fcf7010dfa35e072799b69b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:55</sys_updated_on>
-        <ui_id>3df16cef-ffa7-43ac-9a5b-bba45a9d888e</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=90f8a3212fcf7010dfa35e072799b69b"/>
-    <sys_element_mapping action="delete_multiple" query="id=90f8a3212fcf7010dfa35e072799b69b"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>90f8a3212fcf7010dfa35e072799b69b</id>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:54</sys_created_on>
-        <sys_id>dcf8a3212fcf7010dfa35e072799b69b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:54</sys_updated_on>
-        <table>var__m_sys_hub_action_input_a8f274c8c3c232002841b63b12d3aee9</table>
-        <value>{{Updated_1.current}}</value>
-    </sys_element_mapping>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type>
-        <action_type_parent/>
-        <comment/>
-        <compiled_snapshot>a8f274c8c3c232002841b63b12d3aee9</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Cancel or Rescind Travel Request">e72be82d2f877010dfa35e072799b61d</flow>
+        <flow display_value="Rescind Travel Request">e72be82d2f877010dfa35e072799b61d</flow>
         <order>3</order>
         <parent_ui_id>3a6acaf5-648f-4ddb-bd14-485de14101ad</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:50</sys_created_on>
         <sys_id>bb2be82d2f877010dfa35e072799b68c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:55</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:19</sys_updated_on>
         <ui_id>cd51e1cf-e71c-411f-9773-946deb27b85f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bb2be82d2f877010dfa35e072799b68c"/>
@@ -1744,77 +1402,7 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <table>var__m_sys_hub_action_input_a8f274c8c3c232002841b63b12d3aee9</table>
         <value>{{Updated_1.current}}</value>
     </sys_element_mapping>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=e72be82d2f877010dfa35e072799b61d^sys_idNOT IN1cf8a3212fcf7010dfa35e072799b6a2,772be82d2f877010dfa35e072799b684"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">0ad823212fcf7010dfa35e072799b616</block>
-        <comment/>
-        <connected_to>3a6acaf5-648f-4ddb-bd14-485de14101ad</connected_to>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="Cancel or Rescind Travel Request">e72be82d2f877010dfa35e072799b61d</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <inputs/>
-        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>4</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:54</sys_created_on>
-        <sys_id>1cf8a3212fcf7010dfa35e072799b6a2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:55</sys_updated_on>
-        <ui_id>daac1bcb-3862-4001-b754-4a4265d47313</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=1cf8a3212fcf7010dfa35e072799b6a2"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>1cf8a3212fcf7010dfa35e072799b6a2</document_key>
-        <order>10</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:54</sys_created_on>
-        <sys_id>dcf8a3212fcf7010dfa35e072799b6a5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:54</sys_updated_on>
-        <value>State = 'Rescinded'</value>
-        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=1cf8a3212fcf7010dfa35e072799b6a2"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition</field>
-        <id>1cf8a3212fcf7010dfa35e072799b6a2</id>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:54</sys_created_on>
-        <sys_id>5cf8a3212fcf7010dfa35e072799b6a5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:54</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
-        <value>{{Updated_1.current.state}}=5</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition_name</field>
-        <id>1cf8a3212fcf7010dfa35e072799b6a2</id>
-        <sys_created_by>kennedy.hall</sys_created_by>
-        <sys_created_on>2021-10-07 11:28:54</sys_created_on>
-        <sys_id>98f8a3212fcf7010dfa35e072799b6a5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:54</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
-        <value/>
-    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=e72be82d2f877010dfa35e072799b61d^sys_idNOT IN772be82d2f877010dfa35e072799b684"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">501b282d2f877010dfa35e072799b6c3</block>
         <comment/>
@@ -1823,7 +1411,7 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Cancel or Rescind Travel Request">e72be82d2f877010dfa35e072799b61d</flow>
+        <flow display_value="Rescind Travel Request">e72be82d2f877010dfa35e072799b61d</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1837,10 +1425,10 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:50</sys_created_on>
         <sys_id>772be82d2f877010dfa35e072799b684</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-07 11:28:55</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:19</sys_updated_on>
         <ui_id>3a6acaf5-648f-4ddb-bd14-485de14101ad</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1854,10 +1442,10 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:50</sys_created_on>
         <sys_id>ff2be82d2f877010dfa35e072799b687</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-06 21:39:50</sys_updated_on>
-        <value>State = 'Cancelled'</value>
+        <sys_updated_on>2021-10-07 14:19:18</sys_updated_on>
+        <value>State = 'Rescinded'</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=772be82d2f877010dfa35e072799b684"/>
@@ -1867,11 +1455,11 @@ If an approver changes the state to 'Rescinded', the requester receives an email
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-06 21:39:50</sys_created_on>
         <sys_id>7f2be82d2f877010dfa35e072799b687</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-06 21:39:50</sys_updated_on>
+        <sys_updated_on>2021-10-07 14:19:18</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Updated_1.current.state}}=6</value>
+        <value>{{Updated_1.current.state}}=5</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>

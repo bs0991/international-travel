@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Request Travel">a00a1cf92f43b010dfa35e072799b6cd</catalog_item>
+        <catalog_variable>IO:340a943d2f43b010dfa35e072799b642</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 15:03:18</sys_created_on>
+        <sys_id>450a943d2f43b010dfa35e072799b66e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>justification</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_450a943d2f43b010dfa35e072799b66e</sys_update_name>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 15:03:18</sys_updated_on>
+        <table/>
+        <ui_policy display_value="If Country is Banned, must provide Justification">c50a943d2f43b010dfa35e072799b66a</ui_policy>
+        <variable>justification</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>catalog_ui_policy_action_450a943d2f43b010dfa35e072799b66e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Request Travel">a00a1cf92f43b010dfa35e072799b6cd</catalog_item><catalog_variable>IO:340a943d2f43b010dfa35e072799b642</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>kennedy.hall</sys_created_by><sys_created_on>2021-10-07 15:03:18</sys_created_on><sys_id>450a943d2f43b010dfa35e072799b66e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>justification</sys_name><sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package><sys_policy/><sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope><sys_update_name>catalog_ui_policy_action_450a943d2f43b010dfa35e072799b66e</sys_update_name><sys_updated_by>kennedy.hall</sys_updated_by><sys_updated_on>2021-10-07 15:03:18</sys_updated_on><table/><ui_policy display_value="If Country is Banned, must provide Justification">c50a943d2f43b010dfa35e072799b66a</ui_policy><variable>justification</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1055383061</payload_hash>
+        <record_name>justification</record_name>
+        <reverted_from/>
+        <source>98de15732f723010dfa35e072799b617</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 15:03:19</sys_created_on>
+        <sys_id>450a943d2f43b010dfa35e072799b689</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c5b47b78a0000001</sys_recorded_at>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 15:03:19</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>890a943dce43b010a4e9efacfabf4188</update_guid>
+        <update_guid_history>890a943dce43b010a4e9efacfabf4188:1055383061,c10a943ded43b010ec01ad89d7169871:-1512193273</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="justification">dc6a1c3d2f43b010dfa35e072799b6fa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 15:04:54</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>b92115ca85a34400bacc058963e90000</sys_id>
+        <sys_metadata>450a943d2f43b010dfa35e072799b66e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>justification</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_450a943d2f43b010dfa35e072799b66e</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_450a943d2f43b010dfa35e072799b66e">450a943d2f43b010dfa35e072799b689</sys_update_version>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 15:04:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -19,11 +19,11 @@
         <dynamic_ref_qual/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>depart_loc</field>
+        <field>dep_loc</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>false</hidden>
+        <hidden>true</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -39,7 +39,7 @@
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>depart_loc</name>
+        <name>dep_loc</name>
         <order>300</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -52,7 +52,7 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_684922_int_trav_travel_requests</record_producer_table>
-        <reference/>
+        <reference>x_684922_int_trav_u_s_states</reference>
         <reference_qual/>
         <reference_qual_condition/>
         <rich_text/>
@@ -68,17 +68,17 @@
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-05 18:08:05</sys_created_on>
         <sys_id>54e82ac92fc33010dfa35e072799b67c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Departing location</sys_name>
         <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
         <sys_policy/>
         <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
         <sys_update_name>item_option_new_54e82ac92fc33010dfa35e072799b67c</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-10-05 18:09:23</sys_updated_on>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 16:01:05</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>8</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>

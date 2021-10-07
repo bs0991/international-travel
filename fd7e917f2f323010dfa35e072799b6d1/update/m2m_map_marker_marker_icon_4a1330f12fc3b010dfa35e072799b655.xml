@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_map_marker_marker_icon">
+    <m2m_map_marker_marker_icon action="INSERT_OR_UPDATE">
+        <marker/>
+        <marker_icon/>
+        <sys_class_name>m2m_map_marker_marker_icon</sys_class_name>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-07 16:53:28</sys_created_on>
+        <sys_id>4a1330f12fc3b010dfa35e072799b655</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>m2m_map_marker_marker_icon_4a1330f12fc3b010dfa35e072799b655</sys_update_name>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-07 16:53:28</sys_updated_on>
+    </m2m_map_marker_marker_icon>
+</record_update>

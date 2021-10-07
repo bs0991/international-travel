@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
+    <sys_sg_view_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Submit Travel Request View Config</name>
+        <sys_class_name>sys_sg_view_config</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 14:49:10</sys_created_on>
+        <sys_id>31c6dc392f43b010dfa35e072799b6cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit Travel Request View Config</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sys_sg_view_config_31c6dc392f43b010dfa35e072799b6cc</sys_update_name>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 14:49:10</sys_updated_on>
+        <table>x_684922_int_trav_travel_requests</table>
+        <template display_value="Applet 01">6bb0be5c41a71010f877183fc9b8be0c</template>
+    </sys_sg_view_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=31c6dc392f43b010dfa35e072799b6cc"/>
+</record_update>

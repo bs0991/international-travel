@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby/>
-        <aggregate>COUNT(DISTINCT</aggregate>
+        <aggregate>COUNT</aggregate>
         <aggregation_source>no_override</aggregation_source>
         <allow_data_label_overlap>false</allow_data_label_overlap>
         <apply_alias>false</apply_alias>
@@ -101,19 +101,19 @@
         <source_type>table</source_type>
         <start_time/>
         <style_config/>
-        <sumfield>destination</sumfield>
+        <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>deep.singh</sys_created_by>
         <sys_created_on>2021-10-06 14:02:58</sys_created_on>
         <sys_id>5b924f5d2f037010dfa35e072799b62d</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Total Number of Requests broken out by Nations</sys_name>
         <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
         <sys_policy/>
         <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
         <sys_update_name>sys_report_5b924f5d2f037010dfa35e072799b62d</sys_update_name>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-06 20:10:04</sys_updated_on>
+        <sys_updated_by>deep.singh</sys_updated_by>
+        <sys_updated_on>2021-10-07 16:20:51</sys_updated_on>
         <table>x_684922_int_trav_travel_requests</table>
         <title>Total Number of Requests broken out by Nations</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

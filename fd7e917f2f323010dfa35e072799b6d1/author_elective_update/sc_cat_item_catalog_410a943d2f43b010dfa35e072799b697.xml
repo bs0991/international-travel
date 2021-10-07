@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Request Travel">a00a1cf92f43b010dfa35e072799b6cd</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 15:03:19</sys_created_on>
+        <sys_id>410a943d2f43b010dfa35e072799b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request Travel</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_410a943d2f43b010dfa35e072799b697</sys_update_name>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 15:03:19</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>sc_cat_item_catalog_410a943d2f43b010dfa35e072799b697</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request Travel">a00a1cf92f43b010dfa35e072799b6cd</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>kennedy.hall</sys_created_by><sys_created_on>2021-10-07 15:03:19</sys_created_on><sys_id>410a943d2f43b010dfa35e072799b697</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Request Travel</sys_name><sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package><sys_policy/><sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope><sys_update_name>sc_cat_item_catalog_410a943d2f43b010dfa35e072799b697</sys_update_name><sys_updated_by>kennedy.hall</sys_updated_by><sys_updated_on>2021-10-07 15:03:19</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-59778004</payload_hash>
+        <record_name>Service Catalog.Request Travel</record_name>
+        <reverted_from/>
+        <source>98de15732f723010dfa35e072799b617</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 15:03:19</sys_created_on>
+        <sys_id>4d0a943d2f43b010dfa35e072799b699</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c5b47b8090000001</sys_recorded_at>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 15:03:19</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>c10a943d3643b01021ac604c7d608299</update_guid>
+        <update_guid_history>c10a943d3643b01021ac604c7d608299:-59778004</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Request Travel">dd6adc3d2f43b010dfa35e072799b660</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 15:04:58</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>1ca306866dd24c6483dab22f68657110</sys_id>
+        <sys_metadata>410a943d2f43b010dfa35e072799b697</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request Travel</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_410a943d2f43b010dfa35e072799b697</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_410a943d2f43b010dfa35e072799b697">4d0a943d2f43b010dfa35e072799b699</sys_update_version>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 15:04:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

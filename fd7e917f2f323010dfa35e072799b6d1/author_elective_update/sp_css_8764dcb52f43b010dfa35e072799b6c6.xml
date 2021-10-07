@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css">
+    <sp_css action="DELETE">
+        <css>section.container{&#13;
+&#13;
+background-color: rgba(0,0,0.5)&#13;
+&#13;
+}</css>
+        <name>transparentHeader.css</name>
+        <sys_class_name>sp_css</sys_class_name>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-07 14:41:31</sys_created_on>
+        <sys_id>8764dcb52f43b010dfa35e072799b6c6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>transparentHeader.css</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sp_css_8764dcb52f43b010dfa35e072799b6c6</sys_update_name>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-07 14:48:31</sys_updated_on>
+    </sp_css>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>sp_css_8764dcb52f43b010dfa35e072799b6c6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css"><sp_css action="INSERT_OR_UPDATE"><css>section.container{&#13;
+&#13;
+background-color: rgba(0,0,0.5)&#13;
+&#13;
+}</css><name>transparentHeader.css</name><sys_class_name>sp_css</sys_class_name><sys_created_by>brandon.scott</sys_created_by><sys_created_on>2021-10-07 14:41:31</sys_created_on><sys_id>8764dcb52f43b010dfa35e072799b6c6</sys_id><sys_mod_count>5</sys_mod_count><sys_name>transparentHeader.css</sys_name><sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package><sys_policy/><sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope><sys_update_name>sp_css_8764dcb52f43b010dfa35e072799b6c6</sys_update_name><sys_updated_by>brandon.scott</sys_updated_by><sys_updated_on>2021-10-07 14:48:31</sys_updated_on></sp_css></record_update>]]></payload>
+        <payload_hash>-512890230</payload_hash>
+        <record_name>transparentHeader.css</record_name>
+        <reverted_from/>
+        <source>98de15732f723010dfa35e072799b617</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-07 14:48:31</sys_created_on>
+        <sys_id>68a658392f43b010dfa35e072799b6a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c5b3a2d800000001</sys_recorded_at>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-07 14:48:31</sys_updated_on>
+        <type>Style Sheet</type>
+        <update_guid>a0a658390243b010a234df40c79771a7</update_guid>
+        <update_guid_history>a0a658390243b010a234df40c79771a7:-512890230,84465839b543b01096cc198c43857a7c:565739600,d50694397543b0107a1a27a33709b983:-23187488,e4a55cf53343b010358d646a69f896e7:-1930648435,b8551cf56a43b010ddcbdca5c3014a17:-1672943760,f90514f54143b010bfdab8fa8035c9de:-243526522</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="transparentHeader.css">ca47d4792f43b010dfa35e072799b697</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-07 14:51:22</sys_created_on>
+        <sys_db_object display_value="" name="sp_css">sp_css</sys_db_object>
+        <sys_id>ac28d161910947448a60869a5f372524</sys_id>
+        <sys_metadata>8764dcb52f43b010dfa35e072799b6c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>transparentHeader.css</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>sp_css_8764dcb52f43b010dfa35e072799b6c6</sys_update_name>
+        <sys_update_version display_value="sp_css_8764dcb52f43b010dfa35e072799b6c6">68a658392f43b010dfa35e072799b6a7</sys_update_version>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-07 14:51:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

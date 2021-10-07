@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_marker_icon">
+    <cmn_map_marker_icon action="DELETE">
+        <co_located_icon_url/>
+        <level/>
+        <name>Employee Icon</name>
+        <scripted_condition><![CDATA[(function(current) {
+   return true;
+})(current);]]></scripted_condition>
+        <single_icon_url>https://maps.google.com/mapfiles/marker.png</single_icon_url>
+        <sys_class_name>cmn_map_marker_icon</sys_class_name>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-07 16:50:53</sys_created_on>
+        <sys_id>6972fcb12fc3b010dfa35e072799b691</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Icon</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>cmn_map_marker_icon_6972fcb12fc3b010dfa35e072799b691</sys_update_name>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-07 16:50:53</sys_updated_on>
+    </cmn_map_marker_icon>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>cmn_map_marker_icon_6972fcb12fc3b010dfa35e072799b691</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="cmn_map_marker_icon"&gt;&lt;cmn_map_marker_icon action="INSERT_OR_UPDATE"&gt;&lt;co_located_icon_url/&gt;&lt;level/&gt;&lt;name&gt;Employee Icon&lt;/name&gt;&lt;scripted_condition&gt;&lt;![CDATA[(function(current) {
+   return true;
+})(current);]]&gt;&lt;/scripted_condition&gt;&lt;single_icon_url&gt;https://maps.google.com/mapfiles/marker.png&lt;/single_icon_url&gt;&lt;sys_class_name&gt;cmn_map_marker_icon&lt;/sys_class_name&gt;&lt;sys_created_by&gt;brandon.scott&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-07 16:50:53&lt;/sys_created_on&gt;&lt;sys_id&gt;6972fcb12fc3b010dfa35e072799b691&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Employee Icon&lt;/sys_name&gt;&lt;sys_package display_value="International Travel" source="x_684922_int_trav"&gt;fd7e917f2f323010dfa35e072799b6d1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="International Travel"&gt;fd7e917f2f323010dfa35e072799b6d1&lt;/sys_scope&gt;&lt;sys_update_name&gt;cmn_map_marker_icon_6972fcb12fc3b010dfa35e072799b691&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;brandon.scott&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-07 16:50:53&lt;/sys_updated_on&gt;&lt;/cmn_map_marker_icon&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-439348235</payload_hash>
+        <record_name>Employee Icon</record_name>
+        <reverted_from/>
+        <source>98de15732f723010dfa35e072799b617</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-07 16:50:53</sys_created_on>
+        <sys_id>f4a278b12fc3b010dfa35e072799b624</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c5baa323a0000001</sys_recorded_at>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-07 16:50:53</sys_updated_on>
+        <type>Map Marker Icon</type>
+        <update_guid>30a278b179c3b01047481d9a501c4424</update_guid>
+        <update_guid_history>30a278b179c3b01047481d9a501c4424:-439348235</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Employee Icon">e0153c352fc3b010dfa35e072799b6db</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-07 17:01:30</sys_created_on>
+        <sys_db_object display_value="" name="cmn_map_marker_icon">cmn_map_marker_icon</sys_db_object>
+        <sys_id>91172b63cfcf4a7c8071c366ce3fbed1</sys_id>
+        <sys_metadata>6972fcb12fc3b010dfa35e072799b691</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Icon</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>cmn_map_marker_icon_6972fcb12fc3b010dfa35e072799b691</sys_update_name>
+        <sys_update_version display_value="cmn_map_marker_icon_6972fcb12fc3b010dfa35e072799b691">f4a278b12fc3b010dfa35e072799b624</sys_update_version>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-07 17:01:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
+    <sys_sg_list_screen action="DELETE">
+        <available_offline>false</available_offline>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>on_demand</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="Favorites icon">e1ecdc9ec7221010fc3a2aa9b8c260b2</icon>
+        <name>List of Travel Approvals</name>
+        <roles_override/>
+        <sys_class_name>sys_sg_list_screen</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 14:55:17</sys_created_on>
+        <sys_id>cd0850b92f43b010dfa35e072799b6f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List of Travel Approvals</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sys_sg_list_screen_cd0850b92f43b010dfa35e072799b6f2</sys_update_name>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 14:55:17</sys_updated_on>
+    </sys_sg_list_screen>
+    <sys_translated_text action="DELETE" query="documentkey=cd0850b92f43b010dfa35e072799b6f2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>sys_sg_list_screen_cd0850b92f43b010dfa35e072799b6f2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen"><sys_sg_list_screen action="INSERT_OR_UPDATE"><available_offline>false</available_offline><description/><dynamic_prefetch_count/><empty_state/><fetch_type>on_demand</fetch_type><filter/><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon display_value="Favorites icon">e1ecdc9ec7221010fc3a2aa9b8c260b2</icon><name>List of Travel Approvals</name><roles_override/><sys_class_name>sys_sg_list_screen</sys_class_name><sys_created_by>kennedy.hall</sys_created_by><sys_created_on>2021-10-07 14:55:17</sys_created_on><sys_id>cd0850b92f43b010dfa35e072799b6f2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>List of Travel Approvals</sys_name><sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package><sys_policy/><sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope><sys_update_name>sys_sg_list_screen_cd0850b92f43b010dfa35e072799b6f2</sys_update_name><sys_updated_by>kennedy.hall</sys_updated_by><sys_updated_on>2021-10-07 14:55:17</sys_updated_on></sys_sg_list_screen><sys_translated_text action="delete_multiple" query="documentkey=cd0850b92f43b010dfa35e072799b6f2"/></record_update>]]></payload>
+        <payload_hash>-1867913600</payload_hash>
+        <record_name>List of Travel Approvals</record_name>
+        <reverted_from/>
+        <source>98de15732f723010dfa35e072799b617</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 14:55:17</sys_created_on>
+        <sys_id>e72814b92f43b010dfa35e072799b609</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c5b405ebc0000001</sys_recorded_at>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 14:55:17</sys_updated_on>
+        <type>List screen</type>
+        <update_guid>232814b9f743b010f141f1eacc821409</update_guid>
+        <update_guid_history>232814b9f743b010f141f1eacc821409:-1867913600</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 14:58:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_list_screen">sys_sg_list_screen</sys_db_object>
+        <sys_id>43bdb8218e0a4ba0947737aa61dfde04</sys_id>
+        <sys_metadata>cd0850b92f43b010dfa35e072799b6f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List of Travel Approvals</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>sys_sg_list_screen_cd0850b92f43b010dfa35e072799b6f2</sys_update_name>
+        <sys_update_version display_value="sys_sg_list_screen_cd0850b92f43b010dfa35e072799b6f2">e72814b92f43b010dfa35e072799b609</sys_update_version>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 14:58:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

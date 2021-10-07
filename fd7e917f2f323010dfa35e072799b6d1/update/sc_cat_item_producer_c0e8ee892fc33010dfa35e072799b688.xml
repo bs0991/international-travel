@@ -30,7 +30,7 @@
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
         <name>Request Travel</name>
-        <no_attachment_v2>false</no_attachment_v2>
+        <no_attachment_v2>true</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
         <no_delivery_time_v2>false</no_delivery_time_v2>
@@ -69,14 +69,14 @@ producer.portal_redirect = 'itr?id=if';]]></script>
         <sys_created_by>kennedy.hall</sys_created_by>
         <sys_created_on>2021-10-05 18:08:04</sys_created_on>
         <sys_id>c0e8ee892fc33010dfa35e072799b688</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Request Travel</sys_name>
         <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
         <sys_policy/>
         <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
         <sys_update_name>sc_cat_item_producer_c0e8ee892fc33010dfa35e072799b688</sys_update_name>
         <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-06 16:49:03</sys_updated_on>
+        <sys_updated_on>2021-10-07 13:43:07</sys_updated_on>
         <table_name>x_684922_int_trav_travel_requests</table_name>
         <template/>
         <template_manager_roles/>

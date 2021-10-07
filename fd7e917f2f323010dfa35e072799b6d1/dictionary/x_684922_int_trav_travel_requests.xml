@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="task" label="Travel Requests" max_length="40" name="x_684922_int_trav_travel_requests" sizeclass="16" type="collection">
+        <element label="Banned" max_length="40" name="banned" read_only="true" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Departure date" mandatory="true" max_length="40" name="depart_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Departing location" max_length="40" name="depart_loc" type="string"/>
+        <element attributes="encode_utf8=false" label="Departing location" mandatory="true" max_length="32" name="dep_loc" reference="x_684922_int_trav_u_s_states" type="reference"/>
         <element attributes="encode_utf8=false" label="Destination" mandatory="true" max_length="32" name="destination" reference="x_684922_int_trav_nations" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="1000" name="justification" type="string"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>

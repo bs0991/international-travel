@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 13:41:59</sys_created_on>
+        <sys_id>f747c0792f03b010dfa35e072799b69c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rescind Travel.x_684922_int_trav.nat_approver</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_ui_action display_value="Rescind Travel">ffc2b7292fcf7010dfa35e072799b613</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_f747c0792f03b010dfa35e072799b69c</sys_update_name>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 13:41:59</sys_updated_on>
+        <sys_user_role display_value="x_684922_int_trav.nat_approver" name="x_684922_int_trav.nat_approver">71d728702f433010dfa35e072799b6b0</sys_user_role>
+    </sys_ui_action_role>
+</record_update>

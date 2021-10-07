@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Travel Requests">041fa4f42f433010dfa35e072799b659</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>MAP</link_type>
+        <map_page display_value="x_684922_int_trav_Employees Abroad">ef6c5cbd2f43b010dfa35e072799b64b</map_page>
+        <mobile_title>Employees Abroad</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>800</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_684922_int_trav.nat_approver</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-07 16:22:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0d3b6c3d2f83b010dfa35e072799b63e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employees Abroad</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sys_app_module_0d3b6c3d2f83b010dfa35e072799b63e</sys_update_name>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-07 16:22:19</sys_updated_on>
+        <timeline_page/>
+        <title>Employees Abroad</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

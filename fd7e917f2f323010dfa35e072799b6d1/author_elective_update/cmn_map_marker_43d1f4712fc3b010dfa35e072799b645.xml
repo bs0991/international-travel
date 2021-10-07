@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_marker">
+    <cmn_map_marker action="DELETE">
+        <coordinate_definition/>
+        <data_item/>
+        <data_item_table>x_684922_int_trav_travel_requests</data_item_table>
+        <display_field/>
+        <display_value_script><![CDATA[(function(current) {
+  answer = "";
+})(current);]]></display_value_script>
+        <name>Employees Currently Abroad Marker</name>
+        <sys_class_name>cmn_map_marker</sys_class_name>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-07 16:49:17</sys_created_on>
+        <sys_id>43d1f4712fc3b010dfa35e072799b645</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employees Currently Abroad Marker</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>cmn_map_marker_43d1f4712fc3b010dfa35e072799b645</sys_update_name>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-07 16:49:17</sys_updated_on>
+        <title_type>default</title_type>
+    </cmn_map_marker>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>cmn_map_marker_43d1f4712fc3b010dfa35e072799b645</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="cmn_map_marker"&gt;&lt;cmn_map_marker action="INSERT_OR_UPDATE"&gt;&lt;coordinate_definition/&gt;&lt;data_item/&gt;&lt;data_item_table&gt;x_684922_int_trav_travel_requests&lt;/data_item_table&gt;&lt;display_field/&gt;&lt;display_value_script&gt;&lt;![CDATA[(function(current) {
+  answer = "";
+})(current);]]&gt;&lt;/display_value_script&gt;&lt;name&gt;Employees Currently Abroad Marker&lt;/name&gt;&lt;sys_class_name&gt;cmn_map_marker&lt;/sys_class_name&gt;&lt;sys_created_by&gt;brandon.scott&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-07 16:49:17&lt;/sys_created_on&gt;&lt;sys_id&gt;43d1f4712fc3b010dfa35e072799b645&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Employees Currently Abroad Marker&lt;/sys_name&gt;&lt;sys_package display_value="International Travel" source="x_684922_int_trav"&gt;fd7e917f2f323010dfa35e072799b6d1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="International Travel"&gt;fd7e917f2f323010dfa35e072799b6d1&lt;/sys_scope&gt;&lt;sys_update_name&gt;cmn_map_marker_43d1f4712fc3b010dfa35e072799b645&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;brandon.scott&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-07 16:49:17&lt;/sys_updated_on&gt;&lt;title_type&gt;default&lt;/title_type&gt;&lt;/cmn_map_marker&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-763671339</payload_hash>
+        <record_name>Employees Currently Abroad Marker</record_name>
+        <reverted_from/>
+        <source>98de15732f723010dfa35e072799b617</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-07 17:01:22</sys_created_on>
+        <sys_id>ae05b0752fc3b010dfa35e072799b675</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c5bb3ccc50000001</sys_recorded_at>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-07 17:01:22</sys_updated_on>
+        <type>Map Page Marker</type>
+        <update_guid>d94270b152c3b0101d501b903b4b9d85</update_guid>
+        <update_guid_history>d94270b152c3b0101d501b903b4b9d85:-925738949,d94270b152c3b0101d501b903b4b9d85:-925738949,d94270b152c3b0101d501b903b4b9d85:-925738949</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Employees Currently Abroad Marker">d215f0752fc3b010dfa35e072799b6ac</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-07 17:01:38</sys_created_on>
+        <sys_db_object display_value="" name="cmn_map_marker">cmn_map_marker</sys_db_object>
+        <sys_id>1d268d896f00460883b20fc3e859a144</sys_id>
+        <sys_metadata>43d1f4712fc3b010dfa35e072799b645</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employees Currently Abroad Marker</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>cmn_map_marker_43d1f4712fc3b010dfa35e072799b645</sys_update_name>
+        <sys_update_version display_value="cmn_map_marker_43d1f4712fc3b010dfa35e072799b645">ae05b0752fc3b010dfa35e072799b675</sys_update_version>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-07 17:01:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
