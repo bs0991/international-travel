@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">2b778db82f833010dfa35e072799b640</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>deep.singh</sys_created_by>
+        <sys_created_on>2021-10-04 16:16:59</sys_created_on>
+        <sys_id>b61ec1302fc33010dfa35e072799b648</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sp_instance_b61ec1302fc33010dfa35e072799b648</sys_update_name>
+        <sys_updated_by>deep.singh</sys_updated_by>
+        <sys_updated_on>2021-10-04 17:09:16</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<h3 data-mce-style=\"text-align: center;\" style=\"text-align: center;\"><strong>FAQ</strong></h3>",
+		"displayValue": "<h3 style=\"text-align: center;\"><strong>FAQ</strong></h3>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=b61ec1302fc33010dfa35e072799b648"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>sp_instance_b61ec1302fc33010dfa35e072799b648</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;2b778db82f833010dfa35e072799b640&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;deep.singh&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-04 16:16:59&lt;/sys_created_on&gt;&lt;sys_id&gt;b61ec1302fc33010dfa35e072799b648&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="International Travel" source="x_684922_int_trav"&gt;fd7e917f2f323010dfa35e072799b6d1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="International Travel"&gt;fd7e917f2f323010dfa35e072799b6d1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_b61ec1302fc33010dfa35e072799b648&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;deep.singh&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-04 17:09:16&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;h3 data-mce-style=\"text-align: center;\" style=\"text-align: center;\"&gt;&lt;strong&gt;FAQ&lt;/strong&gt;&lt;/h3&gt;",
+		"displayValue": "&lt;h3 style=\"text-align: center;\"&gt;&lt;strong&gt;FAQ&lt;/strong&gt;&lt;/h3&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b61ec1302fc33010dfa35e072799b648"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-5504692</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>027e917f2f323010dfa35e072799b6d4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>deep.singh</sys_created_by>
+        <sys_created_on>2021-10-04 17:09:16</sys_created_on>
+        <sys_id>301a5d382fc33010dfa35e072799b68b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c4c47f36f0000001</sys_recorded_at>
+        <sys_updated_by>deep.singh</sys_updated_by>
+        <sys_updated_on>2021-10-04 17:09:16</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>b81a5d386cc330101a0ef36d1e85e58a</update_guid>
+        <update_guid_history>b81a5d386cc330101a0ef36d1e85e58a:-5504692,f1a359709cc330104b7e56630e8a90d0:-46084334,6f83ddf0f5c3301062a1b2152998aa79:1394595120,9cb09d70f6c33010cd953927073ddb5c:105962618,b5809d703ac33010037351385de7814f:-46084334,2a709d7033c330105293e157e0b2ed31:2044544624,831ec130d3c330103c0cea5cfcd18f4a:963862264</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">2c8c3d382f473010dfa35e072799b612</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>deep.singh</sys_created_by>
+        <sys_created_on>2021-10-04 19:39:43</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>4f757c16f74e45a4b1cac9ddd4261164</sys_id>
+        <sys_metadata>b61ec1302fc33010dfa35e072799b648</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>sp_instance_b61ec1302fc33010dfa35e072799b648</sys_update_name>
+        <sys_update_version display_value="sp_instance_b61ec1302fc33010dfa35e072799b648">301a5d382fc33010dfa35e072799b68b</sys_update_version>
+        <sys_updated_by>deep.singh</sys_updated_by>
+        <sys_updated_on>2021-10-04 19:39:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

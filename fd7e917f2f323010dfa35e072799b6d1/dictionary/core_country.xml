@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true" create_roles="user_admin" label="Country" max_length="40" name="core_country" sizeclass="231" text_index="true" type="collection">
+        <element label="Banned" max_length="40" name="x_684922_int_trav_banned" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Continent" max_length="40" name="x_684922_int_trav_continent" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason" max_length="40" name="x_684922_int_trav_reason" type="string"/>
+    </element>
+</database>

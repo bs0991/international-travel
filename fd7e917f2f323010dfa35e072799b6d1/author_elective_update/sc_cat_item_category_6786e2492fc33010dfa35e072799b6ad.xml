@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Travel Request">a7862e092fc33010dfa35e072799b641</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-05 17:21:53</sys_created_on>
+        <sys_id>6786e2492fc33010dfa35e072799b6ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Travel Request</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sc_cat_item_category_6786e2492fc33010dfa35e072799b6ad</sys_update_name>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-05 17:21:53</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>sc_cat_item_category_6786e2492fc33010dfa35e072799b6ad</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Travel Request">a7862e092fc33010dfa35e072799b641</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>brandon.scott</sys_created_by><sys_created_on>2021-10-05 17:21:53</sys_created_on><sys_id>6786e2492fc33010dfa35e072799b6ad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Travel Request</sys_name><sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package><sys_policy/><sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope><sys_update_name>sc_cat_item_category_6786e2492fc33010dfa35e072799b6ad</sys_update_name><sys_updated_by>brandon.scott</sys_updated_by><sys_updated_on>2021-10-05 17:21:53</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>659679948</payload_hash>
+        <record_name>Services.Travel Request</record_name>
+        <reverted_from/>
+        <source>98de15732f723010dfa35e072799b617</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-05 17:21:54</sys_created_on>
+        <sys_id>2f86e2492fc33010dfa35e072799b6b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c5179df4a0000001</sys_recorded_at>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-05 17:21:54</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>a386e24923c330106c58bb13f34cd9b0</update_guid>
+        <update_guid_history>a386e24923c330106c58bb13f34cd9b0:659679948</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.Travel Request">f2c8e6c92fc33010dfa35e072799b643</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-05 17:31:40</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>45418c2006b84dcc9c39ec7d355ee310</sys_id>
+        <sys_metadata>6786e2492fc33010dfa35e072799b6ad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Travel Request</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_6786e2492fc33010dfa35e072799b6ad</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_6786e2492fc33010dfa35e072799b6ad">2f86e2492fc33010dfa35e072799b6b0</sys_update_version>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-05 17:31:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

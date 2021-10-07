@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_684922_int_trav.nations_user" name="x_684922_int_trav.nations_user">0e4e06b42f873010dfa35e072799b68c</contains>
+        <role display_value="x_684922_int_trav.nat_approver" name="x_684922_int_trav.nat_approver">71d728702f433010dfa35e072799b6b0</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-04 21:15:14</sys_created_on>
+        <sys_id>3f529a782f873010dfa35e072799b609</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_684922_int_trav.nations_user.x_684922_int_trav.nat_approver</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sys_user_role_contains_3f529a782f873010dfa35e072799b609</sys_update_name>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-04 21:15:14</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

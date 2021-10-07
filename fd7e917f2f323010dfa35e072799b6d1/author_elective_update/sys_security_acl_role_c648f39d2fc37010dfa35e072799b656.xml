@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-06 17:57:41</sys_created_on>
+        <sys_id>c648f39d2fc37010dfa35e072799b656</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_684922_int_trav.nat_approver</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_security_acl display_value="">2c38779d2fc37010dfa35e072799b6fc</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c648f39d2fc37010dfa35e072799b656</sys_update_name>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-06 17:57:41</sys_updated_on>
+        <sys_user_role display_value="x_684922_int_trav.nat_approver" name="x_684922_int_trav.nat_approver">71d728702f433010dfa35e072799b6b0</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>sys_security_acl_role_c648f39d2fc37010dfa35e072799b656</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>kennedy.hall</sys_created_by><sys_created_on>2021-10-06 17:57:41</sys_created_on><sys_id>c648f39d2fc37010dfa35e072799b656</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_684922_int_trav.nat_approver</sys_name><sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package><sys_policy/><sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope><sys_security_acl display_value="">2c38779d2fc37010dfa35e072799b6fc</sys_security_acl><sys_update_name>sys_security_acl_role_c648f39d2fc37010dfa35e072799b656</sys_update_name><sys_updated_by>kennedy.hall</sys_updated_by><sys_updated_on>2021-10-06 17:57:41</sys_updated_on><sys_user_role display_value="x_684922_int_trav.nat_approver" name="x_684922_int_trav.nat_approver">71d728702f433010dfa35e072799b6b0</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-2062868111</payload_hash>
+        <record_name>.x_684922_int_trav.nat_approver</record_name>
+        <reverted_from/>
+        <source>98de15732f723010dfa35e072799b617</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-06 17:57:41</sys_created_on>
+        <sys_id>2d58f79d2fc37010dfa35e072799b654</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c56c100410000001</sys_recorded_at>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-06 17:57:41</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>6558f79d3ec37010ec70233f31cbd854</update_guid>
+        <update_guid_history>6558f79d3ec37010ec70233f31cbd854:-2062868111</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_684922_int_trav.nat_approver">e7c87f9d2fc37010dfa35e072799b65a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-06 17:59:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>03a549d2e3834cc2896141475b94e919</sys_id>
+        <sys_metadata>c648f39d2fc37010dfa35e072799b656</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_684922_int_trav.nat_approver</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_c648f39d2fc37010dfa35e072799b656</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_c648f39d2fc37010dfa35e072799b656">2d58f79d2fc37010dfa35e072799b654</sys_update_version>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-06 17:59:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

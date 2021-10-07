@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="DELETE">
+        <sp_dependency display_value="sp_codemirror_includes">016f19255b301200e39fc7ad31f91abd</sp_dependency>
+        <sp_widget display_value="Request Travel">cc9e22012f073010dfa35e072799b6f8</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-05 17:56:53</sys_created_on>
+        <sys_id>049ee6012f073010dfa35e072799b6b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sp_codemirror_includes.Request Travel</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_049ee6012f073010dfa35e072799b6b4</sys_update_name>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-05 17:56:53</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>m2m_sp_widget_dependency_049ee6012f073010dfa35e072799b6b4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="sp_codemirror_includes">016f19255b301200e39fc7ad31f91abd</sp_dependency><sp_widget display_value="Request Travel">cc9e22012f073010dfa35e072799b6f8</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>kennedy.hall</sys_created_by><sys_created_on>2021-10-05 17:56:53</sys_created_on><sys_id>049ee6012f073010dfa35e072799b6b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sp_codemirror_includes.Request Travel</sys_name><sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package><sys_policy/><sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope><sys_update_name>m2m_sp_widget_dependency_049ee6012f073010dfa35e072799b6b4</sys_update_name><sys_updated_by>kennedy.hall</sys_updated_by><sys_updated_on>2021-10-05 17:56:53</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+        <payload_hash>501395482</payload_hash>
+        <record_name>sp_codemirror_includes.Request Travel</record_name>
+        <reverted_from/>
+        <source>98de15732f723010dfa35e072799b617</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-05 17:56:53</sys_created_on>
+        <sys_id>049ee6012f073010dfa35e072799b6b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c5199e83c0000001</sys_recorded_at>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-05 17:56:53</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>4c9ee60115073010ea2b0b8c729a35b5</update_guid>
+        <update_guid_history>4c9ee60115073010ea2b0b8c729a35b5:501395482</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sp_codemirror_includes.Request Travel">9beeae012f073010dfa35e072799b683</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-05 17:58:28</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_dependency">m2m_sp_widget_dependency</sys_db_object>
+        <sys_id>1ff963465e4548c9b302b6656fbcce41</sys_id>
+        <sys_metadata>049ee6012f073010dfa35e072799b6b4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sp_codemirror_includes.Request Travel</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>m2m_sp_widget_dependency_049ee6012f073010dfa35e072799b6b4</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_dependency_049ee6012f073010dfa35e072799b6b4">049ee6012f073010dfa35e072799b6b6</sys_update_version>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-05 17:58:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

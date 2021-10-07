@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>other</category>
+        <css>main.page, main.body {
+  height: 99vh;
+  min-height: 100%;
+  padding-top: 0px !important;
+}
+
+section.page {
+  background-image: url('la_jolla_sp_login_background.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #3A3F50;
+}
+
+section.page main.body:before {
+  display: block;
+  background-color: #3A3F50;
+  opacity: 0.75;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>copy_of_landing_1</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>true</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-06 14:59:31</sys_created_on>
+        <sys_id>bf8fc3d92f437010dfa35e072799b607</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_landing_1</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sp_page_bf8fc3d92f437010dfa35e072799b607</sys_update_name>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-06 14:59:31</sys_updated_on>
+        <title>Copy of Service Portal (1)</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=bf8fc3d92f437010dfa35e072799b607"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>sp_page_bf8fc3d92f437010dfa35e072799b607</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>other</category><css>main.page, main.body {
+  height: 99vh;
+  min-height: 100%;
+  padding-top: 0px !important;
+}
+
+section.page {
+  background-image: url('la_jolla_sp_login_background.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #3A3F50;
+}
+
+section.page main.body:before {
+  display: block;
+  background-color: #3A3F50;
+  opacity: 0.75;
+}</css><draft>false</draft><dynamic_title_structure/><id>copy_of_landing_1</id><internal>false</internal><omit_watcher>false</omit_watcher><public>true</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>kennedy.hall</sys_created_by><sys_created_on>2021-10-06 14:59:31</sys_created_on><sys_id>bf8fc3d92f437010dfa35e072799b607</sys_id><sys_mod_count>0</sys_mod_count><sys_name>copy_of_landing_1</sys_name><sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package><sys_policy/><sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope><sys_update_name>sp_page_bf8fc3d92f437010dfa35e072799b607</sys_update_name><sys_updated_by>kennedy.hall</sys_updated_by><sys_updated_on>2021-10-06 14:59:31</sys_updated_on><title>Copy of Service Portal (1)</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=bf8fc3d92f437010dfa35e072799b607"/></record_update>]]></payload>
+        <payload_hash>-888961656</payload_hash>
+        <record_name>copy_of_landing_1</record_name>
+        <reverted_from/>
+        <source>98de15732f723010dfa35e072799b617</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-06 14:59:32</sys_created_on>
+        <sys_id>bb8f4bd92f437010dfa35e072799b61d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c561de4320000001</sys_recorded_at>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-06 14:59:32</sys_updated_on>
+        <type>Page</type>
+        <update_guid>f38f4bd93b4370109c3205d85ce1d11d</update_guid>
+        <update_guid_history>f38f4bd93b4370109c3205d85ce1d11d:-888961656</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="copy_of_landing_1">2b57a7dd2f837010dfa35e072799b64f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-06 16:43:32</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>10c317a7d8bf4cc1866b36a7da210259</sys_id>
+        <sys_metadata>bf8fc3d92f437010dfa35e072799b607</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_landing_1</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>sp_page_bf8fc3d92f437010dfa35e072799b607</sys_update_name>
+        <sys_update_version display_value="sp_page_bf8fc3d92f437010dfa35e072799b607">bb8f4bd92f437010dfa35e072799b61d</sys_update_version>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-06 16:43:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

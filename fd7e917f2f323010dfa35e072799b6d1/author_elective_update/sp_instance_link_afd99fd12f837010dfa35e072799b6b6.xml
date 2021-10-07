@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>success</color>
+        <css/>
+        <glyph>bar-chart</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">7d2480292f077010dfa35e072799b630</sp_column>
+        <sp_page display_value="itfr_dashboard">d9ec24dd2f4b3010dfa35e072799b666</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>deep.singh</sys_created_by>
+        <sys_created_on>2021-10-06 15:44:34</sys_created_on>
+        <sys_id>afd99fd12f837010dfa35e072799b6b6</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Dashboard</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sp_instance_link_afd99fd12f837010dfa35e072799b6b6</sys_update_name>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-06 18:49:27</sys_updated_on>
+        <title>Dashboard</title>
+        <type>url</type>
+        <url>$pa_dashboard.do?sysparm_dashboard=9ffc381d2f8b3010dfa35e072799b624</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=afd99fd12f837010dfa35e072799b6b6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>sp_instance_link_afd99fd12f837010dfa35e072799b6b6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;success&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;bar-chart&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;7d2480292f077010dfa35e072799b630&lt;/sp_column&gt;&lt;sp_page display_value="itfr_dashboard"&gt;d9ec24dd2f4b3010dfa35e072799b666&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;deep.singh&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-06 15:44:34&lt;/sys_created_on&gt;&lt;sys_id&gt;afd99fd12f837010dfa35e072799b6b6&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Dashboard&lt;/sys_name&gt;&lt;sys_package display_value="International Travel" source="x_684922_int_trav"&gt;fd7e917f2f323010dfa35e072799b6d1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="International Travel"&gt;fd7e917f2f323010dfa35e072799b6d1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_afd99fd12f837010dfa35e072799b6b6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kennedy.hall&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-06 18:49:27&lt;/sys_updated_on&gt;&lt;title&gt;Dashboard&lt;/title&gt;&lt;type&gt;url&lt;/type&gt;&lt;url&gt;$pa_dashboard.do?sysparm_dashboard=9ffc381d2f8b3010dfa35e072799b624&lt;/url&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=afd99fd12f837010dfa35e072799b6b6"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-839507112</payload_hash>
+        <record_name>Dashboard</record_name>
+        <reverted_from/>
+        <source>98de15732f723010dfa35e072799b617</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-06 18:49:27</sys_created_on>
+        <sys_id>8034c0292f077010dfa35e072799b617</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c56f065790000001</sys_recorded_at>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-06 18:49:27</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>0c34c02950077010c728fff57d164816</update_guid>
+        <update_guid_history>0c34c02950077010c728fff57d164816:-839507112,edb3a7d9fd8370105ec625c468754ea4:-720753313,89cddf950783701087d709990021c56d:-609887054,e33b5355238370101a62fced5f8c8924:-1191845451,170bd3157d8370102bfe46042d6512c4:599117611,31f95bd16f837010d4b7fea6076ae415:-1042051476,efd9dfd104837010eb70818e516dcb28:1737811153</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Dashboard">5bab08212f477010dfa35e072799b67f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-06 19:22:11</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>0d7e97a8f73149d8a053844c826dda64</sys_id>
+        <sys_metadata>afd99fd12f837010dfa35e072799b6b6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dashboard</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>sp_instance_link_afd99fd12f837010dfa35e072799b6b6</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_afd99fd12f837010dfa35e072799b6b6">8034c0292f077010dfa35e072799b617</sys_update_version>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-06 19:22:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

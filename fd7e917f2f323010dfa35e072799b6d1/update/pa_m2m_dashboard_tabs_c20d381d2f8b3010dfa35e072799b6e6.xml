@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="ITFR Dashboard ">9ffc381d2f8b3010dfa35e072799b624</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>deep.singh</sys_created_by>
+        <sys_created_on>2021-10-06 04:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c20d381d2f8b3010dfa35e072799b6e6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>9ffc381d2f8b3010dfa35e072799b624</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_c20d381d2f8b3010dfa35e072799b6e6</sys_update_name>
+        <sys_updated_by>deep.singh</sys_updated_by>
+        <sys_updated_on>2021-10-06 14:31:54</sys_updated_on>
+        <tab display_value="ITFR- # of Request by  Nations">460d381d2f8b3010dfa35e072799b6e3</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

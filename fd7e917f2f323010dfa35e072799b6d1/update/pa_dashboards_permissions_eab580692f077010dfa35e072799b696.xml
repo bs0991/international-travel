@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="ITFR Dashboard ">9ffc381d2f8b3010dfa35e072799b624</dashboard>
+        <delete>false</delete>
+        <group display_value="National Travel Approvers" name="National Travel Approvers">8247c1b82f833010dfa35e072799b6ca</group>
+        <identity>8247c1b82f833010dfa35e072799b6ca</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-06 18:56:11</sys_created_on>
+        <sys_id>eab580692f077010dfa35e072799b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8247c1b82f833010dfa35e072799b6ca</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_eab580692f077010dfa35e072799b696</sys_update_name>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-06 18:56:11</sys_updated_on>
+        <type>2</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

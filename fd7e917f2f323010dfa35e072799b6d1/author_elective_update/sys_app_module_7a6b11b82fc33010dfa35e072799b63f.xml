@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Nations">82b3fcb82f433010dfa35e072799b658</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Nations</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>core_country</name>
+        <order>700</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_684922_int_trav.nations_user,x_684922_int_trav.nation_admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-04 17:16:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7a6b11b82fc33010dfa35e072799b63f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>All Nations</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sys_app_module_7a6b11b82fc33010dfa35e072799b63f</sys_update_name>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-04 18:15:55</sys_updated_on>
+        <timeline_page/>
+        <title>All Nations</title>
+        <uncancelable>false</uncancelable>
+        <view_name>International Travel</view_name>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>sys_app_module_7a6b11b82fc33010dfa35e072799b63f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Nations">82b3fcb82f433010dfa35e072799b658</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Nations</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>core_country</name><order>700</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_684922_int_trav.nations_user,x_684922_int_trav.nation_admin</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>brandon.scott</sys_created_by><sys_created_on>2021-10-04 17:16:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7a6b11b82fc33010dfa35e072799b63f</sys_id><sys_mod_count>3</sys_mod_count><sys_name>All Nations</sys_name><sys_overrides/><sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package><sys_policy/><sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope><sys_update_name>sys_app_module_7a6b11b82fc33010dfa35e072799b63f</sys_update_name><sys_updated_by>brandon.scott</sys_updated_by><sys_updated_on>2021-10-04 18:15:55</sys_updated_on><timeline_page/><title>All Nations</title><uncancelable>false</uncancelable><view_name>International Travel</view_name><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>2058637432</payload_hash>
+        <record_name>All Nations</record_name>
+        <reverted_from/>
+        <source>98de15732f723010dfa35e072799b617</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-04 18:15:55</sys_created_on>
+        <sys_id>855969f42f073010dfa35e072799b691</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c4c84fade0000001</sys_recorded_at>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-04 18:15:55</sys_updated_on>
+        <type>Module</type>
+        <update_guid>015969f467073010d7cc3979cfc42591</update_guid>
+        <update_guid_history>015969f467073010d7cc3979cfc42591:2058637432,f9d2a170e5073010abf3791103dec94a:-1859519361,42726d30c50730106b05b0d4e57b0379:-451720236,49db55b873c33010e81abf4cd1757140:-1455297326</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="All Nations">ac7e42f42f873010dfa35e072799b68e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-04 20:58:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>00af97486b7b4e5a924fe1b923bd8749</sys_id>
+        <sys_metadata>7a6b11b82fc33010dfa35e072799b63f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Nations</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>sys_app_module_7a6b11b82fc33010dfa35e072799b63f</sys_update_name>
+        <sys_update_version display_value="sys_app_module_7a6b11b82fc33010dfa35e072799b63f">855969f42f073010dfa35e072799b691</sys_update_version>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-04 20:58:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

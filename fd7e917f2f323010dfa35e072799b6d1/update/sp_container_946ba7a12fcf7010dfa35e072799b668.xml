@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>ITR List - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="list_itr">106ba7a12fcf7010dfa35e072799b665</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 11:39:33</sys_created_on>
+        <sys_id>946ba7a12fcf7010dfa35e072799b668</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ITR List - Container 1</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sp_container_946ba7a12fcf7010dfa35e072799b668</sys_update_name>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 11:39:47</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

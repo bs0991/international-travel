@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_uc_can_view">
+    <m2m_sp_widget_uc_can_view action="DELETE">
+        <sp_widget display_value="Approvals">f37aa302cb70020000f8d856634c9cfc</sp_widget>
+        <sys_class_name>m2m_sp_widget_uc_can_view</sys_class_name>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-06 16:55:55</sys_created_on>
+        <sys_id>5b2aef512fc37010dfa35e072799b644</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approvals.National Approvers</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>m2m_sp_widget_uc_can_view_5b2aef512fc37010dfa35e072799b644</sys_update_name>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-06 16:55:55</sys_updated_on>
+        <user_criteria display_value="National Approvers">63ea4f4d2f473010dfa35e072799b626</user_criteria>
+    </m2m_sp_widget_uc_can_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>m2m_sp_widget_uc_can_view_5b2aef512fc37010dfa35e072799b644</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_uc_can_view"><m2m_sp_widget_uc_can_view action="INSERT_OR_UPDATE"><sp_widget display_value="Approvals">f37aa302cb70020000f8d856634c9cfc</sp_widget><sys_class_name>m2m_sp_widget_uc_can_view</sys_class_name><sys_created_by>brandon.scott</sys_created_by><sys_created_on>2021-10-06 16:55:55</sys_created_on><sys_id>5b2aef512fc37010dfa35e072799b644</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Approvals.National Approvers</sys_name><sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package><sys_policy/><sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope><sys_update_name>m2m_sp_widget_uc_can_view_5b2aef512fc37010dfa35e072799b644</sys_update_name><sys_updated_by>brandon.scott</sys_updated_by><sys_updated_on>2021-10-06 16:55:55</sys_updated_on><user_criteria display_value="National Approvers">63ea4f4d2f473010dfa35e072799b626</user_criteria></m2m_sp_widget_uc_can_view></record_update>]]></payload>
+        <payload_hash>1171169381</payload_hash>
+        <record_name>Approvals.National Approvers</record_name>
+        <reverted_from/>
+        <source>98de15732f723010dfa35e072799b617</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-06 16:55:55</sys_created_on>
+        <sys_id>f43aaf512fc37010dfa35e072799b6eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c568873130000001</sys_recorded_at>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-06 16:55:55</sys_updated_on>
+        <type>Who Can View Widget</type>
+        <update_guid>303aaf5118c3701015e562a5560e29eb</update_guid>
+        <update_guid_history>303aaf5118c3701015e562a5560e29eb:1171169381</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Approvals.National Approvers">71ccafd12fc37010dfa35e072799b6d5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-06 17:07:11</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_uc_can_view">m2m_sp_widget_uc_can_view</sys_db_object>
+        <sys_id>6098b42106804dc8a761a6a06142a7e4</sys_id>
+        <sys_metadata>5b2aef512fc37010dfa35e072799b644</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approvals.National Approvers</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>m2m_sp_widget_uc_can_view_5b2aef512fc37010dfa35e072799b644</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_uc_can_view_5b2aef512fc37010dfa35e072799b644">f43aaf512fc37010dfa35e072799b6eb</sys_update_version>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-06 17:07:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

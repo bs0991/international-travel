@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">3eed2c512f8b3010dfa35e072799b64a</sp_column>
+        <sp_widget display_value="Report">e41aa2d29f0222008252baac757fcfce</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>deep.singh</sys_created_by>
+        <sys_created_on>2021-10-06 03:13:37</sys_created_on>
+        <sys_id>a3fd24dd2f4b3010dfa35e072799b690</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sp_instance_a3fd24dd2f4b3010dfa35e072799b690</sys_update_name>
+        <sys_updated_by>deep.singh</sys_updated_by>
+        <sys_updated_on>2021-10-06 03:34:09</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"report_id": {
+		"value": "11e2935bc0a8016501aba72e1525e6f7",
+		"displayValue": "Open Incidents by Priority"
+	},
+	"show_title": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=a3fd24dd2f4b3010dfa35e072799b690"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>sp_instance_a3fd24dd2f4b3010dfa35e072799b690</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;3eed2c512f8b3010dfa35e072799b64a&lt;/sp_column&gt;&lt;sp_widget display_value="Report"&gt;e41aa2d29f0222008252baac757fcfce&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;deep.singh&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-06 03:13:37&lt;/sys_created_on&gt;&lt;sys_id&gt;a3fd24dd2f4b3010dfa35e072799b690&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="International Travel" source="x_684922_int_trav"&gt;fd7e917f2f323010dfa35e072799b6d1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="International Travel"&gt;fd7e917f2f323010dfa35e072799b6d1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_a3fd24dd2f4b3010dfa35e072799b690&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;deep.singh&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-06 03:34:09&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"report_id": {
+		"value": "11e2935bc0a8016501aba72e1525e6f7",
+		"displayValue": "Open Incidents by Priority"
+	},
+	"show_title": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a3fd24dd2f4b3010dfa35e072799b690"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-507738249</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>027e917f2f323010dfa35e072799b6d4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>deep.singh</sys_created_by>
+        <sys_created_on>2021-10-06 03:34:09</sys_created_on>
+        <sys_id>18b2b0552f8b3010dfa35e072799b67c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c53aa6a4a0000001</sys_recorded_at>
+        <sys_updated_by>deep.singh</sys_updated_by>
+        <sys_updated_on>2021-10-06 03:34:09</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>90b2b055938b3010200f89bef2268d7c</update_guid>
+        <update_guid_history>90b2b055938b3010200f89bef2268d7c:-507738249,0952f051df8b30109cfed0926289f975:1767569783,abfd24ddbf4b3010e2908099146e0491:-750720078</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">826997d12f837010dfa35e072799b6ea</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>deep.singh</sys_created_by>
+        <sys_created_on>2021-10-06 15:42:32</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>2258db674aab425d92fc6c54864b5879</sys_id>
+        <sys_metadata>a3fd24dd2f4b3010dfa35e072799b690</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>sp_instance_a3fd24dd2f4b3010dfa35e072799b690</sys_update_name>
+        <sys_update_version display_value="sp_instance_a3fd24dd2f4b3010dfa35e072799b690">18b2b0552f8b3010dfa35e072799b67c</sys_update_version>
+        <sys_updated_by>deep.singh</sys_updated_by>
+        <sys_updated_on>2021-10-06 15:42:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

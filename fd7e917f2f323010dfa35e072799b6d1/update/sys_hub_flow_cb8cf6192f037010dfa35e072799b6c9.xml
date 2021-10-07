@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>This Subflow checks a newly created Travel Requets to make sure the user has not requested more than 3 times in the past two months.</description>
+        <internal_name>check_for_3_international_trips</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Check for 3+ International trips</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-06 13:36:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cb8cf6192f037010dfa35e072799b6c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check for 3+ International trips</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sys_hub_flow_cb8cf6192f037010dfa35e072799b6c9</sys_update_name>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-06 13:36:27</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=cb8cf6192f037010dfa35e072799b6c9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=cb8cf6192f037010dfa35e072799b6c9"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=cb8cf6192f037010dfa35e072799b6c9^sys_idNOT IN4f8cf6192f037010dfa35e072799b6ca"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>cb8cf6192f037010dfa35e072799b6c9</id>
+        <name>Check for 3+ International trips</name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-06 13:36:27</sys_created_on>
+        <sys_id>4f8cf6192f037010dfa35e072799b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-06 13:36:27</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>

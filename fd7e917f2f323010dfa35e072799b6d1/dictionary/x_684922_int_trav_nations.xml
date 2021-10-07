@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Nations" max_length="40" name="x_684922_int_trav_nations" sizeclass="231" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Banned" max_length="40" name="banned" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Continent" max_length="40" name="continent" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reasoning" max_length="150" name="reasoning" type="string"/>
+    </element>
+</database>

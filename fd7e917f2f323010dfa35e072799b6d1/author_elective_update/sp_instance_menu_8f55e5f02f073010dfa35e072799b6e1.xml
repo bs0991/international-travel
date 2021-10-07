@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu">
+    <sp_instance_menu action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>success</color>
+        <css/>
+        <glyph>star-o</glyph>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b53fd57c2fc33010dfa35e072799b61d</sp_column>
+        <sp_widget display_value="Icon Menu List">88979930cb01020000f8d856634c9caa</sp_widget>
+        <sys_class_name>sp_instance_menu</sys_class_name>
+        <sys_created_by>deep.singh</sys_created_by>
+        <sys_created_on>2021-10-04 17:58:35</sys_created_on>
+        <sys_id>8f55e5f02f073010dfa35e072799b6e1</sys_id>
+        <sys_mod_count>56</sys_mod_count>
+        <sys_name>My Travel</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sp_instance_menu_8f55e5f02f073010dfa35e072799b6e1</sys_update_name>
+        <sys_updated_by>deep.singh</sys_updated_by>
+        <sys_updated_on>2021-10-04 18:23:07</sys_updated_on>
+        <title>My Travel</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_menu>
+    <sys_translated_text action="DELETE" query="documentkey=8f55e5f02f073010dfa35e072799b6e1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>sp_instance_menu_8f55e5f02f073010dfa35e072799b6e1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu"><sp_instance_menu action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>success</color><css/><glyph>star-o</glyph><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">b53fd57c2fc33010dfa35e072799b61d</sp_column><sp_widget display_value="Icon Menu List">88979930cb01020000f8d856634c9caa</sp_widget><sys_class_name>sp_instance_menu</sys_class_name><sys_created_by>deep.singh</sys_created_by><sys_created_on>2021-10-04 17:58:35</sys_created_on><sys_id>8f55e5f02f073010dfa35e072799b6e1</sys_id><sys_mod_count>56</sys_mod_count><sys_name>My Travel</sys_name><sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package><sys_policy/><sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope><sys_update_name>sp_instance_menu_8f55e5f02f073010dfa35e072799b6e1</sys_update_name><sys_updated_by>deep.singh</sys_updated_by><sys_updated_on>2021-10-04 18:23:07</sys_updated_on><title>My Travel</title><url/><widget_parameters/></sp_instance_menu><sys_translated_text action="delete_multiple" query="documentkey=8f55e5f02f073010dfa35e072799b6e1"/></record_update>]]></payload>
+        <payload_hash>-1590121767</payload_hash>
+        <record_name>My Travel</record_name>
+        <reverted_from/>
+        <source>027e917f2f323010dfa35e072799b6d4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>deep.singh</sys_created_by>
+        <sys_created_on>2021-10-04 18:23:08</sys_created_on>
+        <sys_id>72fa61782f073010dfa35e072799b67c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c4c8b93140000001</sys_recorded_at>
+        <sys_updated_by>deep.singh</sys_updated_by>
+        <sys_updated_on>2021-10-04 18:23:08</sys_updated_on>
+        <type>Instance with Menu</type>
+        <update_guid>fafa6178f4073010ddf20305a5853a7b</update_guid>
+        <update_guid_history>fafa6178f4073010ddf20305a5853a7b:-1590121767,f3d9a138730730104aedcc7f8edabca7:-1673180934,5ed52534340730104f9922d3e1b9724d:-521598549,82d525340707301002526de8eb91314a:-1567986105,86d52534ac0730101fe07eb084321e46:-1590121767,e5d5e134b6073010fbb7c2040a2f5fad:-521598549,2dd5e134a307301017abdd8b8e9933a9:-1567986105,21d5e134650730109b731c3991b86da6:-1590121767,f8d5e13432073010293aac9216211080:-521598549,30d5e1343d073010d0f234738b95437d:-1567986105,34d5a1342707301077846d9a244fb8b2:-1590121767,88d5e134f40730103cb1d44a904d7d2f:-521598549,ccd5e13415073010ffb10def4181232b:-1567986105,c0d5e1345507301070c539a5c3944e28:-1590121767,7bc5a13476073010e1e48ffeea8f0e12:-521598549,fbc5a1341107301044d75cba02faf10e:-1590121767,aac56134af073010e3e5bc11c59969e9:-1567986105,eec56134cc073010e5ac611ddb9087e5:-1590121767,96c561345707301048cdf1c920e26fb3:-1567986105,ffb52134fc07301028d527bc6037ae8c:-521598549,37b52134d507301091987b1bba717d89:-1567986105,7fb52df05e073010432532349c278700:-1590121767,dfb52134170730102232792ef9b2654c:-521598549,17b52134450730104ae76c6ef752eb49:-1567986105,1bb5e9f0f4073010ac3cef145864409b:-1590121767,b2b5213459073010f05901078db8e008:-521598549,f6b52134d6073010fd52a6e7eced1e04:-1567986105,fab52134c8073010eae48dbb3d27c300:-1590121767,35b5edf093073010b4d331688787155f:-521598549,b9b5e9f0d4073010e73d8b505faba508:-1567986105,bdb5e9f092073010cc8b2c42bde34704:-1590121767,d9b5adf0980730109f7560bd72a732eb:-521598549,11b5adf05b073010fd841c5e5c4b76e8:-1567986105,15b5adf05a073010cf9301ab76a0c9e4:-1590121767,36a5adf0a80730107b70d3e0cd73bd15:-521598549,7aa5adf0ba073010fcfe4fa9c65c9211:-1567986105,7ea5adf02b07301061c1579243a62d0d:-1590121767,45a56df0b4073010aeea735cc3452ea9:-521598549,89a56df053073010ad5c4f47a7d535a5:-1567986105,8da56df089073010e8569a3cf24037a1:-1590121767,c8a56df04c073010ffec0a402ff26629:-521598549,00a56df0a00730102c87e4820a1e8d26:-1567986105,04a56df0040730101222b891e8813b22:-1590121767,4b952df031073010bce09aacbcdb0684:-521598549,8f952df0cf0730106037967f08fa5f80:-1567986105,cb9569f0b107301038e4656805d51d54:-1590121767,9495e9f0a107301067ab03c1ae9dd3d1:-521598549,0c95e9f0e1073010ddb669aa2bb4d15d:-1567986105,0095e9f01f073010b4c26cbe06e5d35a:-1590121767,bf8529f0d1073010abcd41b51bab1def:-521598549,338529f0670730106b086602cf5d6eec:-1590121767,7e85e9f053073010b240c27568a46947:-1567986105,3a8529f09c0730105aa1b6b931527034:-1590121767,4a85e9f08e073010d1a52c834966e20f:-521598549,6d85a9f03c073010333dc01dc00fe8c1:-1590121767,507529f03a0730109a02a795c5f17e28:-1567986105,8355e5f07a073010445d7717cf07f2e4:691837438</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Travel">0850caf82f473010dfa35e072799b600</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>deep.singh</sys_created_by>
+        <sys_created_on>2021-10-04 19:56:21</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_menu">sp_instance_menu</sys_db_object>
+        <sys_id>183d7b799f464dd18b98148fcceec181</sys_id>
+        <sys_metadata>8f55e5f02f073010dfa35e072799b6e1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Travel</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>sp_instance_menu_8f55e5f02f073010dfa35e072799b6e1</sys_update_name>
+        <sys_update_version display_value="sp_instance_menu_8f55e5f02f073010dfa35e072799b6e1">72fa61782f073010dfa35e072799b67c</sys_update_version>
+        <sys_updated_by>deep.singh</sys_updated_by>
+        <sys_updated_on>2021-10-04 19:56:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

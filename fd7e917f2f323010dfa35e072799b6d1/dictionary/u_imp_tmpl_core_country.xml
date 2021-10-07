@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl Core Country" max_length="40" name="u_imp_tmpl_core_country" sizeclass="231" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Active" label="Active" max_length="40" name="u_active" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Banned" label="Banned" max_length="40" name="u_banned" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Continent" label="Continent" max_length="40" name="u_continent" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IANA Suffix" label="IANA Suffix" max_length="3" name="u_iana_suffix" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ISO Long" label="ISO Long" max_length="3" name="u_iso_long" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ISO Short" label="ISO Short " max_length="2" name="u_iso_short" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="80" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=Order" label="Order" max_length="40" name="u_order" type="integer"/>
+        <element attributes="import_attribute_name=Population (mil)" label="Population (mil)" max_length="40" name="u_population__mil_" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Reason" label="Reason" max_length="40" name="u_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sys ID" label="Sys ID" max_length="40" name="u_sys_id" type="string"/>
+        <element attributes="import_attribute_name=UN Numeric" label="UN Numeric" max_length="40" name="u_un_numeric" type="integer"/>
+    </element>
+</database>

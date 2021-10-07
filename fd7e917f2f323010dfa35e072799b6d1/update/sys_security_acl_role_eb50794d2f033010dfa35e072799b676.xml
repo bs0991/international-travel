@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>brandon.scott</sys_created_by>
+        <sys_created_on>2021-10-05 13:25:42</sys_created_on>
+        <sys_id>eb50794d2f033010dfa35e072799b676</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_684922_int_trav_nations.x_684922_int_trav.nations_admin</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_security_acl display_value="x_684922_int_trav_nations">da4e02f42f873010dfa35e072799b624</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_eb50794d2f033010dfa35e072799b676</sys_update_name>
+        <sys_updated_by>brandon.scott</sys_updated_by>
+        <sys_updated_on>2021-10-05 13:25:42</sys_updated_on>
+        <sys_user_role display_value="x_684922_int_trav.nations_admin" name="x_684922_int_trav.nations_admin">591216b82f873010dfa35e072799b637</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

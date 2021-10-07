@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_684922_int_trav_travel_requests</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_684922_int_trav_travel_requests">destinationVALCHANGES^EQ<item endquery="false" field="destination" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Prompt for Justification</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+	if(current.destination.x_684922_int_trav_banned == true) {
+		current.banned = true;
+	}
+	else {
+		current.banned = false;
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-04 17:30:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d57e553c2fc33010dfa35e072799b617</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Prompt for Justification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sys_script_d57e553c2fc33010dfa35e072799b617</sys_update_name>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-04 18:12:41</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=d57e553c2fc33010dfa35e072799b617"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>sys_script_d57e553c2fc33010dfa35e072799b617</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_684922_int_trav_travel_requests&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_684922_int_trav_travel_requests"&gt;destinationVALCHANGES^EQ&lt;item endquery="false" field="destination" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Prompt for Justification&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+	if(current.destination.x_684922_int_trav_banned == true) {
+		current.banned = true;
+	}
+	else {
+		current.banned = false;
+	}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kennedy.hall&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-04 17:30:33&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d57e553c2fc33010dfa35e072799b617&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;Prompt for Justification&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="International Travel" source="x_684922_int_trav"&gt;fd7e917f2f323010dfa35e072799b6d1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="International Travel"&gt;fd7e917f2f323010dfa35e072799b6d1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_d57e553c2fc33010dfa35e072799b617&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kennedy.hall&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-04 18:12:41&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d57e553c2fc33010dfa35e072799b617"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1435018469</payload_hash>
+        <record_name>Prompt for Justification</record_name>
+        <reverted_from/>
+        <source>98de15732f723010dfa35e072799b617</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-04 18:12:41</sys_created_on>
+        <sys_id>7d9869b42f073010dfa35e072799b615</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c4c82032b0000001</sys_recorded_at>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-04 18:12:41</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>759869b4470730102ea11f321ad8b615</update_guid>
+        <update_guid_history>759869b4470730102ea11f321ad8b615:1435018469,efd6a57469073010176c97ffe3c0e04d:-784101332,442525f02607301022516d24748474ec:-675607595,24f421f0c1073010649565f754679b91:2022727086,4eb4adb0ee073010c43dc7ccf463fd13:1838612502,6d046d70e20730100065864a7df768ea:-1227326769,fdb361b08007301093d69b8012ab650d:-1940949939,a163e970a10730103deafb961dd0a8f7:1387308353,513369702a073010226ba777632b4bc1:-1854531352,77c2a170ae073010c95ea24c02f8a635:-186913012,7112e5305e0730105753b67892598f9b:-1058751107,01026130190730103799ee3f32194e82:-649249936,2570ad7c00c33010bfa501ea36c4de6d:-119111463,796f597c5fc33010cd7fc20e33dd09bd:765597967,78fed17cb6c3301014bdf14cedfaccb6:1811050984</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-04 19:07:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>5dee3ebfdc3b4819b05a905d9db606b1</sys_id>
+        <sys_metadata>d57e553c2fc33010dfa35e072799b617</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Prompt for Justification</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent display_value="Travel Requests">f1db20742f433010dfa35e072799b6ab</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>sys_script_d57e553c2fc33010dfa35e072799b617</sys_update_name>
+        <sys_update_version display_value="sys_script_d57e553c2fc33010dfa35e072799b617">7d9869b42f073010dfa35e072799b615</sys_update_version>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-04 19:07:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

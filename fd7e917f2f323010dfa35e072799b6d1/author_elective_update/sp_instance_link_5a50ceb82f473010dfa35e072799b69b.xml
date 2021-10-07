@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>success</color>
+        <css/>
+        <glyph>fighter-jet</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b53fd57c2fc33010dfa35e072799b61d</sp_column>
+        <sp_page display_value="employees_flight_travel_request">5c7330b82f433010dfa35e072799b65b</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>deep.singh</sys_created_by>
+        <sys_created_on>2021-10-04 19:56:29</sys_created_on>
+        <sys_id>5a50ceb82f473010dfa35e072799b69b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My Travel</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sp_instance_link_5a50ceb82f473010dfa35e072799b69b</sys_update_name>
+        <sys_updated_by>deep.singh</sys_updated_by>
+        <sys_updated_on>2021-10-04 19:57:13</sys_updated_on>
+        <title>My Travel</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=5a50ceb82f473010dfa35e072799b69b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>sp_instance_link_5a50ceb82f473010dfa35e072799b69b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;success&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;fighter-jet&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;b53fd57c2fc33010dfa35e072799b61d&lt;/sp_column&gt;&lt;sp_page display_value="employees_flight_travel_request"&gt;5c7330b82f433010dfa35e072799b65b&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;deep.singh&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-04 19:56:29&lt;/sys_created_on&gt;&lt;sys_id&gt;5a50ceb82f473010dfa35e072799b69b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Travel&lt;/sys_name&gt;&lt;sys_package display_value="International Travel" source="x_684922_int_trav"&gt;fd7e917f2f323010dfa35e072799b6d1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="International Travel"&gt;fd7e917f2f323010dfa35e072799b6d1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_5a50ceb82f473010dfa35e072799b69b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;deep.singh&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-04 19:57:13&lt;/sys_updated_on&gt;&lt;title&gt;My Travel&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=5a50ceb82f473010dfa35e072799b69b"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1129865262</payload_hash>
+        <record_name>My Travel</record_name>
+        <reverted_from/>
+        <source>027e917f2f323010dfa35e072799b6d4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>deep.singh</sys_created_by>
+        <sys_created_on>2021-10-04 19:57:13</sys_created_on>
+        <sys_id>fc804ef82f473010dfa35e072799b654</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c4ce1b6960000001</sys_recorded_at>
+        <sys_updated_by>deep.singh</sys_updated_by>
+        <sys_updated_on>2021-10-04 19:57:13</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>78804ef8974730109c4e01aa8cc02854</update_guid>
+        <update_guid_history>78804ef8974730109c4e01aa8cc02854:1129865262,d650ceb8cf473010f3f8d7f58a61fa9d:110588494</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Travel">dd424b052f473010dfa35e072799b68b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-05 19:22:59</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>33cf655caaa642d08001865c5aec3924</sys_id>
+        <sys_metadata>5a50ceb82f473010dfa35e072799b69b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Travel</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>sp_instance_link_5a50ceb82f473010dfa35e072799b69b</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_5a50ceb82f473010dfa35e072799b69b">fc804ef82f473010dfa35e072799b654</sys_update_version>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-05 19:22:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

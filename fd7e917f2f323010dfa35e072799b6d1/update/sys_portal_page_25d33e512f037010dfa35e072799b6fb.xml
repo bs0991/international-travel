@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2021-10-07 12:31:16">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>deep.singh</sys_created_by>
+        <sys_created_on>2021-10-06 12:58:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>25d33e512f037010dfa35e072799b6fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA International Travel - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sys_portal_page_25d33e512f037010dfa35e072799b6fb</sys_update_name>
+        <sys_updated_by>deep.singh</sys_updated_by>
+        <sys_updated_on>2021-10-06 12:58:23</sys_updated_on>
+        <title>PA International Travel - New Tab</title>
+        <user/>
+        <view>pa_international_travel_-_new_tab</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA International Travel - New Tab">25d33e512f037010dfa35e072799b6fb</page>
+                <summary>#New Score</summary>
+                <sys_created_by>deep.singh</sys_created_by>
+                <sys_created_on>2021-10-06 12:59:05</sys_created_on>
+                <sys_id>ebf3be512f037010dfa35e072799b64a</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>deep.singh</sys_updated_by>
+                <sys_updated_on>2021-10-06 12:59:05</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-10-06 08:59:05">ebf3be512f037010dfa35e072799b64a</portal_section>
+                        <sys_created_by>deep.singh</sys_created_by>
+                        <sys_created_on>2021-10-06 12:59:05</sys_created_on>
+                        <sys_id>2ff3be512f037010dfa35e072799b64b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>deep.singh</sys_updated_by>
+                        <sys_updated_on>2021-10-06 12:59:05</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-10-06 08:59:05">ebf3be512f037010dfa35e072799b64a</portal_section>
+                        <sys_created_by>deep.singh</sys_created_by>
+                        <sys_created_on>2021-10-06 12:59:05</sys_created_on>
+                        <sys_id>63f3be512f037010dfa35e072799b64b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>deep.singh</sys_updated_by>
+                        <sys_updated_on>2021-10-06 12:59:05</sys_updated_on>
+                        <value>-1</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2021-10-06 08:59:05">ebf3be512f037010dfa35e072799b64a</portal_section>
+                        <sys_created_by>deep.singh</sys_created_by>
+                        <sys_created_on>2021-10-06 12:59:05</sys_created_on>
+                        <sys_id>63f3be512f037010dfa35e072799b64d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>deep.singh</sys_updated_by>
+                        <sys_updated_on>2021-10-06 12:59:05</sys_updated_on>
+                        <value>score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-10-06 08:59:05">ebf3be512f037010dfa35e072799b64a</portal_section>
+                        <sys_created_by>deep.singh</sys_created_by>
+                        <sys_created_on>2021-10-06 12:59:05</sys_created_on>
+                        <sys_id>67f3be512f037010dfa35e072799b64c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>deep.singh</sys_updated_by>
+                        <sys_updated_on>2021-10-06 12:59:05</sys_updated_on>
+                        <value>#New Score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_time</name>
+                        <portal_section display_value="Created 2021-10-06 08:59:05">ebf3be512f037010dfa35e072799b64a</portal_section>
+                        <sys_created_by>deep.singh</sys_created_by>
+                        <sys_created_on>2021-10-06 12:59:05</sys_created_on>
+                        <sys_id>a3f3be512f037010dfa35e072799b64c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>deep.singh</sys_updated_by>
+                        <sys_updated_on>2021-10-06 12:59:05</sys_updated_on>
+                        <value>0</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-10-06 08:59:05">ebf3be512f037010dfa35e072799b64a</portal_section>
+                        <sys_created_by>deep.singh</sys_created_by>
+                        <sys_created_on>2021-10-06 12:59:05</sys_created_on>
+                        <sys_id>eff3be512f037010dfa35e072799b64b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>deep.singh</sys_updated_by>
+                        <sys_updated_on>2021-10-06 12:59:05</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>
