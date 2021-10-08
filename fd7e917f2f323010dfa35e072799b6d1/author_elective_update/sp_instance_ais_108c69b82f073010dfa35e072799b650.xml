@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>success</color>
+        <css>.input-typehead {&#13;
+  color:black;&#13;
+}</css>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder>How can we help?</placeholder>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">9c8c69b82f073010dfa35e072799b64d</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>deep.singh</sys_created_by>
+        <sys_created_on>2021-10-04 18:29:48</sys_created_on>
+        <sys_id>108c69b82f073010dfa35e072799b650</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>International Travel Portal</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sp_instance_ais_108c69b82f073010dfa35e072799b650</sys_update_name>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 19:41:38</sys_updated_on>
+        <title>International Travel Portal</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"typeahead_search": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=108c69b82f073010dfa35e072799b650"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>sp_instance_ais_108c69b82f073010dfa35e072799b650</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_ais"&gt;&lt;sp_instance_ais action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;ai_search_source_filter/&gt;&lt;class_name/&gt;&lt;color&gt;success&lt;/color&gt;&lt;css&gt;.input-typehead {&amp;#13;
+  color:black;&amp;#13;
+}&lt;/css&gt;&lt;disable_all_suggestions&gt;false&lt;/disable_all_suggestions&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;placeholder&gt;How can we help?&lt;/placeholder&gt;&lt;roles/&gt;&lt;search_application/&gt;&lt;search_results_configuration/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;9c8c69b82f073010dfa35e072799b64d&lt;/sp_column&gt;&lt;sp_widget display_value="Homepage Search"&gt;200fbd96cb20020000f8d856634c9ca1&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_ais&lt;/sys_class_name&gt;&lt;sys_created_by&gt;deep.singh&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-04 18:29:48&lt;/sys_created_on&gt;&lt;sys_id&gt;108c69b82f073010dfa35e072799b650&lt;/sys_id&gt;&lt;sys_mod_count&gt;22&lt;/sys_mod_count&gt;&lt;sys_name&gt;International Travel Portal&lt;/sys_name&gt;&lt;sys_package display_value="International Travel" source="x_684922_int_trav"&gt;fd7e917f2f323010dfa35e072799b6d1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="International Travel"&gt;fd7e917f2f323010dfa35e072799b6d1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_ais_108c69b82f073010dfa35e072799b650&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kennedy.hall&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-07 19:41:38&lt;/sys_updated_on&gt;&lt;title&gt;International Travel Portal&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"typeahead_search": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_ais&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=108c69b82f073010dfa35e072799b650"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1062838678</payload_hash>
+        <record_name>International Travel Portal</record_name>
+        <reverted_from/>
+        <source>98de15732f723010dfa35e072799b617</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 19:41:38</sys_created_on>
+        <sys_id>42b99db12f47b010dfa35e072799b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c5c4687920000001</sys_recorded_at>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 19:41:38</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>8ab99db1e147b010b6f77f161c09b299</update_guid>
+        <update_guid_history>8ab99db1e147b010b6f77f161c09b299:1062838678,d4b99db14b47b010caac5a8d3b8c957d:-771037632,c188d9714447b010c7247bbdffe5c41f:1062838678,804815710147b0105f2b9d5f57f80fa1:1152579425,6c285571f747b01054e54e4613aedbfd:777043922,1fc799312b47b0101cd1f097a4c0cdf2:1152579425,8c871d319947b010932919c2adfad60d:1062838678,efe555fdf707b0101acca72b6cbb14a1:1221146339,398195f9cd07b010428d4223b34526bb:842613641,772111f98207b0105e0784bcd573e115:904758026,184f8d398807b010cdd2b1acff8853ab:842613641,3a1f4939d107b01061256df69345b694:-2068475203,241f41796707b01023673315407aeba9:1192432625,31ae0939dc07b0109975a7cb383de45d:-2068475203,e68b01b54207b01059fc1527ab49a5f8:1221146339,497a4175fd07b010cafd7a0670eb2bae:-1331459423,ef5a41753807b01036b25a546420c661:1221146339,942a80ad1a077010c89b596e8366060f:794198114,65e9486de8077010a025a728ecc25d9e:1221146339,4c18631189c370105f6613c1bdc9328b:-117906399,eb984a01fd8330102db04aa179dc5e16:-2086253817,1c8c69b8ef073010ddf9d33f37fb7151:1978703853</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="International Travel Portal">dc202df52f47b010dfa35e072799b6ac</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 20:09:38</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>2010c3901c384b6c849e9e3cf666b301</sys_id>
+        <sys_metadata>108c69b82f073010dfa35e072799b650</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>International Travel Portal</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_108c69b82f073010dfa35e072799b650</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_108c69b82f073010dfa35e072799b650">42b99db12f47b010dfa35e072799b69a</sys_update_version>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 20:09:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

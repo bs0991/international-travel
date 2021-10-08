@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="DELETE">
+        <active>true</active>
+        <color>default</color>
+        <condition>groupISb5ed88a12f477010dfa35e072799b6f8^EQ</condition>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph>bar-chart</glyph>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>Dashboard</label>
+        <order>100</order>
+        <record_script/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <sp_page display_value="itfr_dashboard">d9ec24dd2f4b3010dfa35e072799b666</sp_page>
+        <sp_rectangle_menu display_value="ITR Menu">81fc01f52f07b010dfa35e072799b6f0</sp_rectangle_menu>
+        <sp_rectangle_menu_item/>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 18:47:49</sys_created_on>
+        <sys_id>bb2dc5f52f07b010dfa35e072799b603</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Dashboard</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_bb2dc5f52f07b010dfa35e072799b603</sys_update_name>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 18:52:09</sys_updated_on>
+        <table/>
+        <type>page</type>
+        <url/>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="DELETE" query="documentkey=bb2dc5f52f07b010dfa35e072799b603"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>sp_rectangle_menu_item_bb2dc5f52f07b010dfa35e072799b603</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item"><sp_rectangle_menu_item action="INSERT_OR_UPDATE"><active>true</active><color>default</color><condition>groupISb5ed88a12f477010dfa35e072799b6f8^EQ</condition><display_1/><display_2/><display_date/><filter/><glyph>bar-chart</glyph><hint/><kb_article/><kb_category/><kb_topic/><label>Dashboard</label><order>100</order><record_script/><sc_cat_item/><sc_category/><short_description/><sp_page display_value="itfr_dashboard">d9ec24dd2f4b3010dfa35e072799b666</sp_page><sp_rectangle_menu display_value="ITR Menu">81fc01f52f07b010dfa35e072799b6f0</sp_rectangle_menu><sp_rectangle_menu_item/><sys_class_name>sp_rectangle_menu_item</sys_class_name><sys_created_by>kennedy.hall</sys_created_by><sys_created_on>2021-10-07 18:47:49</sys_created_on><sys_id>bb2dc5f52f07b010dfa35e072799b603</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Dashboard</sys_name><sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package><sys_policy/><sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope><sys_update_name>sp_rectangle_menu_item_bb2dc5f52f07b010dfa35e072799b603</sys_update_name><sys_updated_by>kennedy.hall</sys_updated_by><sys_updated_on>2021-10-07 18:52:09</sys_updated_on><table/><type>page</type><url/><url_target/></sp_rectangle_menu_item><sys_translated_text action="delete_multiple" query="documentkey=bb2dc5f52f07b010dfa35e072799b603"/></record_update>]]></payload>
+        <payload_hash>1226785790</payload_hash>
+        <record_name>Dashboard</record_name>
+        <reverted_from/>
+        <source>98de15732f723010dfa35e072799b617</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 18:52:09</sys_created_on>
+        <sys_id>d96e05392f07b010dfa35e072799b668</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c5c193a040000001</sys_recorded_at>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 18:52:09</sys_updated_on>
+        <type>Menu Item</type>
+        <update_guid>156e0539d007b01094087f67052c3568</update_guid>
+        <update_guid_history>156e0539d007b01094087f67052c3568:1226785790,e24e4539fc07b0108b517c2c7baacdbd:-2067113612,796d85f5e407b0101a66bfbaed460b78:-1784744469</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Dashboard">e6a119f92f07b010dfa35e072799b61e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 19:06:26</sys_created_on>
+        <sys_db_object display_value="" name="sp_rectangle_menu_item">sp_rectangle_menu_item</sys_db_object>
+        <sys_id>15861f049c6948a2852080e4b34d8fb9</sys_id>
+        <sys_metadata>bb2dc5f52f07b010dfa35e072799b603</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dashboard</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>sp_rectangle_menu_item_bb2dc5f52f07b010dfa35e072799b603</sys_update_name>
+        <sys_update_version display_value="sp_rectangle_menu_item_bb2dc5f52f07b010dfa35e072799b603">d96e05392f07b010dfa35e072799b668</sys_update_version>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 19:06:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

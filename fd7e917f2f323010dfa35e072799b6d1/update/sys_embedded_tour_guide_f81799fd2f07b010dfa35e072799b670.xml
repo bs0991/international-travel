@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_guide">
+    <sys_embedded_tour_guide action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <additional_parameters/>
+        <autolaunch_order>0</autolaunch_order>
+        <context>itr?id=if&amp;gtd_portal_title=Employees Travel Request Service Portal&amp;gtd_page_title=International Travel Portal</context>
+        <description/>
+        <has_concl>true</has_concl>
+        <has_intro>true</has_intro>
+        <name>How to Request Travel</name>
+        <options/>
+        <roles/>
+        <sp_page display_value="if">548c29b82f073010dfa35e072799b64c</sp_page>
+        <sp_portal display_value="Employees Travel Request Service Portal">6caa60342f433010dfa35e072799b6bf</sp_portal>
+        <status>published</status>
+        <sys_class_name>sys_embedded_tour_guide</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 19:30:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f81799fd2f07b010dfa35e072799b670</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>How to Request Travel</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sys_embedded_tour_guide_f81799fd2f07b010dfa35e072799b670</sys_update_name>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 19:38:46</sys_updated_on>
+        <tour_id>TOUR0000002</tour_id>
+        <type>service_portal</type>
+    </sys_embedded_tour_guide>
+</record_update>

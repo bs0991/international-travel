@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="DELETE">
+        <active>true</active>
+        <color>default</color>
+        <condition>gs.isLoggedIn() &amp;&amp; gs.getUser().hasRole('x_684922_int_trav.reg_approver') || gs.getUser().hasRole('x_684922_int_trav.nat_approver')</condition>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph/>
+        <hint>My Approvals</hint>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>Travel Approvals</label>
+        <order>400</order>
+        <record_script><![CDATA[// only show 30 in header menu dropdown
+var max = 30;
+
+var t = data;
+t.items = [];
+t.count = 0;
+
+var u = getMyApprovals();
+
+// use record watchers to tell header when to update dropdown counts
+t.record_watchers = [];
+t.record_watchers.push({'table':'sysapproval_approver','filter':'approverIN' + u.toString() + '^state=requested'});
+
+var z = new GlideRecord('sysapproval_approver');
+z.addQuery("approver", u);
+z.addQuery("state", "requested");
+z.orderByDesc('sys_updated_on');
+z.setLimit(max);
+z.query();
+
+var link = {};
+link.title = gs.getMessage('View all approvals');
+link.type = 'link';
+link.href = '?id=approvals';
+link.items = [];
+t.items.push(link);
+
+while (z.next()) {
+  var a = {};
+  var rec = getRecordBeingApproved(z);
+	if (!rec.isValidRecord())  // nothing being approved - hmmm
+		continue;
+	
+  a.short_description = rec.short_description + "";
+  if (rec.getRecordClassName() == "sc_request") {
+    var items = new GlideRecord("sc_req_item");
+    items.addQuery("request", rec.getUniqueValue());
+    items.query();
+    if (items.getRowCount() > 1)
+      a.short_description = items.getRowCount() + " requested items";
+    else if (items.getRowCount() == 1) {
+      items.next();
+      a.short_description = items.getValue("short_description");
+    }
+  }
+  $sp.getRecordValues(a, z, 'sys_id,sys_updated_on');
+  a.number = rec.getDisplayValue();
+  a.__table = z.getRecordClassName();
+  a.type = 'approval';
+  t.items.push(a);
+  t.count++;
+}
+
+function getRecordBeingApproved(gr) {
+  if (!gr.sysapproval.nil())
+    return gr.sysapproval.getRefRecord();
+
+  return gr.document_id.getRefRecord();
+}]]></record_script>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <sp_page/>
+        <sp_rectangle_menu display_value="ITR Menu">81fc01f52f07b010dfa35e072799b6f0</sp_rectangle_menu>
+        <sp_rectangle_menu_item/>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 19:00:19</sys_created_on>
+        <sys_id>784051b92f07b010dfa35e072799b6da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Travel Approvals</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_784051b92f07b010dfa35e072799b6da</sys_update_name>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 19:01:45</sys_updated_on>
+        <table/>
+        <type>scripted</type>
+        <url/>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="DELETE" query="documentkey=784051b92f07b010dfa35e072799b6da"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>sp_rectangle_menu_item_784051b92f07b010dfa35e072799b6da</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_rectangle_menu_item"&gt;&lt;sp_rectangle_menu_item action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;color&gt;default&lt;/color&gt;&lt;condition&gt;gs.isLoggedIn() &amp;amp;&amp;amp; gs.getUser().hasRole('x_684922_int_trav.reg_approver') || gs.getUser().hasRole('x_684922_int_trav.nat_approver')&lt;/condition&gt;&lt;display_1/&gt;&lt;display_2/&gt;&lt;display_date/&gt;&lt;filter/&gt;&lt;glyph/&gt;&lt;hint&gt;My Approvals&lt;/hint&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;label&gt;Travel Approvals&lt;/label&gt;&lt;order&gt;400&lt;/order&gt;&lt;record_script&gt;&lt;![CDATA[// only show 30 in header menu dropdown
+var max = 30;
+
+var t = data;
+t.items = [];
+t.count = 0;
+
+var u = getMyApprovals();
+
+// use record watchers to tell header when to update dropdown counts
+t.record_watchers = [];
+t.record_watchers.push({'table':'sysapproval_approver','filter':'approverIN' + u.toString() + '^state=requested'});
+
+var z = new GlideRecord('sysapproval_approver');
+z.addQuery("approver", u);
+z.addQuery("state", "requested");
+z.orderByDesc('sys_updated_on');
+z.setLimit(max);
+z.query();
+
+var link = {};
+link.title = gs.getMessage('View all approvals');
+link.type = 'link';
+link.href = '?id=approvals';
+link.items = [];
+t.items.push(link);
+
+while (z.next()) {
+  var a = {};
+  var rec = getRecordBeingApproved(z);
+	if (!rec.isValidRecord())  // nothing being approved - hmmm
+		continue;
+	
+  a.short_description = rec.short_description + "";
+  if (rec.getRecordClassName() == "sc_request") {
+    var items = new GlideRecord("sc_req_item");
+    items.addQuery("request", rec.getUniqueValue());
+    items.query();
+    if (items.getRowCount() &gt; 1)
+      a.short_description = items.getRowCount() + " requested items";
+    else if (items.getRowCount() == 1) {
+      items.next();
+      a.short_description = items.getValue("short_description");
+    }
+  }
+  $sp.getRecordValues(a, z, 'sys_id,sys_updated_on');
+  a.number = rec.getDisplayValue();
+  a.__table = z.getRecordClassName();
+  a.type = 'approval';
+  t.items.push(a);
+  t.count++;
+}
+
+function getRecordBeingApproved(gr) {
+  if (!gr.sysapproval.nil())
+    return gr.sysapproval.getRefRecord();
+
+  return gr.document_id.getRefRecord();
+}]]&gt;&lt;/record_script&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;sp_page/&gt;&lt;sp_rectangle_menu display_value="ITR Menu"&gt;81fc01f52f07b010dfa35e072799b6f0&lt;/sp_rectangle_menu&gt;&lt;sp_rectangle_menu_item/&gt;&lt;sys_class_name&gt;sp_rectangle_menu_item&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kennedy.hall&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-07 19:00:19&lt;/sys_created_on&gt;&lt;sys_id&gt;784051b92f07b010dfa35e072799b6da&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Travel Approvals&lt;/sys_name&gt;&lt;sys_package display_value="International Travel" source="x_684922_int_trav"&gt;fd7e917f2f323010dfa35e072799b6d1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="International Travel"&gt;fd7e917f2f323010dfa35e072799b6d1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_rectangle_menu_item_784051b92f07b010dfa35e072799b6da&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kennedy.hall&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-07 19:01:45&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;scripted&lt;/type&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sp_rectangle_menu_item&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=784051b92f07b010dfa35e072799b6da"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2010399224</payload_hash>
+        <record_name>Travel Approvals</record_name>
+        <reverted_from/>
+        <source>98de15732f723010dfa35e072799b617</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 19:01:45</sys_created_on>
+        <sys_id>fd9095b92f07b010dfa35e072799b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c5c2203c00000001</sys_recorded_at>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 19:01:45</sys_updated_on>
+        <type>Menu Item</type>
+        <update_guid>399095b90207b01054286b47561eccfc</update_guid>
+        <update_guid_history>399095b90207b01054286b47561eccfc:2010399224,bc4051b97207b010028902d03828e1db:-1864098986</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Travel Approvals">5632513d2f07b010dfa35e072799b636</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 19:08:53</sys_created_on>
+        <sys_db_object display_value="" name="sp_rectangle_menu_item">sp_rectangle_menu_item</sys_db_object>
+        <sys_id>6f18a68ff19447dabca8d0089d6fec84</sys_id>
+        <sys_metadata>784051b92f07b010dfa35e072799b6da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Travel Approvals</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>sp_rectangle_menu_item_784051b92f07b010dfa35e072799b6da</sys_update_name>
+        <sys_update_version display_value="sp_rectangle_menu_item_784051b92f07b010dfa35e072799b6da">fd9095b92f07b010dfa35e072799b6fc</sys_update_version>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 19:08:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

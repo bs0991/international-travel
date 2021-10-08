@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>International Travel Portal - Container 6</name>
+        <order>6</order>
+        <sp_page display_value="if">548c29b82f073010dfa35e072799b64c</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-06 18:49:13</sys_created_on>
+        <sys_id>6c2440292f077010dfa35e072799b6e4</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>International Travel Portal - Container 6</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>sp_container_6c2440292f077010dfa35e072799b6e4</sys_update_name>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 18:26:38</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</application>
+        <file_path/>
+        <instance_id>b1cee564db44a344cbf6d5b0cf961911</instance_id>
+        <instance_name>dev71084</instance_name>
+        <name>sp_container_6c2440292f077010dfa35e072799b6e4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>International Travel Portal - Container 6</name><order>6</order><sp_page display_value="if">548c29b82f073010dfa35e072799b64c</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>kennedy.hall</sys_created_by><sys_created_on>2021-10-06 18:49:13</sys_created_on><sys_id>6c2440292f077010dfa35e072799b6e4</sys_id><sys_mod_count>7</sys_mod_count><sys_name>International Travel Portal - Container 6</sys_name><sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package><sys_policy/><sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope><sys_update_name>sp_container_6c2440292f077010dfa35e072799b6e4</sys_update_name><sys_updated_by>kennedy.hall</sys_updated_by><sys_updated_on>2021-10-07 18:26:38</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>1613470923</payload_hash>
+        <record_name>International Travel Portal - Container 6</record_name>
+        <reverted_from/>
+        <source>98de15732f723010dfa35e072799b617</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 18:26:38</sys_created_on>
+        <sys_id>ab8809f12f07b010dfa35e072799b6bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c5c01dd080000001</sys_recorded_at>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 18:26:38</sys_updated_on>
+        <type>Container</type>
+        <update_guid>e38809f1f607b010c8e3d5fe187de7bc</update_guid>
+        <update_guid_history>e38809f1f607b010c8e3d5fe187de7bc:1613470923,5b78c5f14407b010a0033335a7f6fc24:315045194,4158c1f19707b0107fc92033f6dcb8e7:1613470923,149b8421d1477010327f0ed94423907a:-1383070644,768b8421104770101be5f1149dd28c1c:1845233328,282bcced7c07701085ba8b94dc551712:1884384734,282bccedfa077010bcb2e0d92d89100d:-1255566794,d58a04ed940770105b3d9cf5ba647d42:-1383070644,2c7a80ed3e077010d7dca084a78a9475:-84644915,a4244029980770103514ba8538ba31e6:1213780814</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="International Travel Portal - Container 6">e575ddbd2f07b010dfa35e072799b6b6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 19:23:01</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>4867c168096540d6a99720b3be8a1769</sys_id>
+        <sys_metadata>6c2440292f077010dfa35e072799b6e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>International Travel Portal - Container 6</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_scope_delete display_value="">1abba9dcfa774420880a13fa59664400</sys_scope_delete>
+        <sys_update_name>sp_container_6c2440292f077010dfa35e072799b6e4</sys_update_name>
+        <sys_update_version display_value="sp_container_6c2440292f077010dfa35e072799b6e4">ab8809f12f07b010dfa35e072799b6bc</sys_update_version>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 19:23:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

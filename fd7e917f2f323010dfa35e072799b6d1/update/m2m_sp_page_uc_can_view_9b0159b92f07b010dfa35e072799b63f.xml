@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_page_uc_can_view">
+    <m2m_sp_page_uc_can_view action="INSERT_OR_UPDATE">
+        <sp_page display_value="itfr_dashboard">d9ec24dd2f4b3010dfa35e072799b666</sp_page>
+        <sys_class_name>m2m_sp_page_uc_can_view</sys_class_name>
+        <sys_created_by>kennedy.hall</sys_created_by>
+        <sys_created_on>2021-10-07 19:03:53</sys_created_on>
+        <sys_id>9b0159b92f07b010dfa35e072799b63f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>itfr_dashboard.National Approvers</sys_name>
+        <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
+        <sys_update_name>m2m_sp_page_uc_can_view_9b0159b92f07b010dfa35e072799b63f</sys_update_name>
+        <sys_updated_by>kennedy.hall</sys_updated_by>
+        <sys_updated_on>2021-10-07 19:03:53</sys_updated_on>
+        <user_criteria display_value="National Approvers">63ea4f4d2f473010dfa35e072799b626</user_criteria>
+    </m2m_sp_page_uc_can_view>
+</record_update>

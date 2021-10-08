@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
     <sp_portal action="INSERT_OR_UPDATE">
-        <css_variables/>
+        <css_variables>$brand-primary:#165C53;
+$body-bg:#ffffff;
+$state-success-text:#1e4335;
+$sp-homepage-bg:#fff;
+$sp-navbar-divider-color:#5A7F71;
+$text-color:#2e2e2e;
+$sp-logo-margin-y:.5rem;
+$navbar-inverse-link-hover-color:#fff;
+$panel-bg:#fff;
+$brand-success:#48C891;
+$navbar-inverse-bg:#445946;
+$brand-warning:#DFD139;
+$brand-danger:#C83C36;
+$sp-tagline-color:#ffffff;
+$navbar-inverse-link-color:#A7B0B2;
+$brand-info:#6ABECF;
+$link-color:#165C53;
+$sp-logo-margin-x:15px;
+$btn-default-bg:#fff;
+$text-muted:#666666;
+</css_variables>
         <default>false</default>
         <enable_ais>false</enable_ais>
         <hide_portal_name>false</hide_portal_name>
@@ -18,20 +38,20 @@
         <search_application/>
         <search_results_configuration/>
         <sp_chat_queue/>
-        <sp_rectangle_menu display_value="Benchmarks Menu">f7722d89cb11320004991aeb034c9c71</sp_rectangle_menu>
+        <sp_rectangle_menu display_value="ITR Menu">81fc01f52f07b010dfa35e072799b6f0</sp_rectangle_menu>
         <sys_class_name>sp_portal</sys_class_name>
         <sys_created_by>deep.singh</sys_created_by>
         <sys_created_on>2021-10-04 14:17:19</sys_created_on>
         <sys_id>6caa60342f433010dfa35e072799b6bf</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_name>Employees Travel Request Service Portal</sys_name>
         <sys_package display_value="International Travel" source="x_684922_int_trav">fd7e917f2f323010dfa35e072799b6d1</sys_package>
         <sys_policy/>
         <sys_scope display_value="International Travel">fd7e917f2f323010dfa35e072799b6d1</sys_scope>
         <sys_update_name>sp_portal_6caa60342f433010dfa35e072799b6bf</sys_update_name>
-        <sys_updated_by>kennedy.hall</sys_updated_by>
-        <sys_updated_on>2021-10-06 20:37:03</sys_updated_on>
-        <theme display_value="Benchmarks - Theme">166e16f65b4132003d1c484c11f91a70</theme>
+        <sys_updated_by>deep.singh</sys_updated_by>
+        <sys_updated_on>2021-10-07 20:24:47</sys_updated_on>
+        <theme display_value="La Jolla">a7a6e78277002300a6e592718a10617a</theme>
         <title>Employees Travel Request Service Portal</title>
         <ts_index_group/>
         <url_suffix>itr</url_suffix>
